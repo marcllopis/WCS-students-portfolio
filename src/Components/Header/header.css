@@ -6,8 +6,8 @@
   box-shadow: 0px 10px 14px -1px rgba(0,0,0,0.1);
   background: #ffffff;
   justify-content: space-between;
+  position: sticky;
 }
-
 
 .logoWCS {
   height: 15%;
@@ -19,21 +19,33 @@
   color: #F76C6C;
   font-size: 2.5em;
   line-height: 2px;
-  
+
 }
+
+
+.countryContact {
+  line-height: 60px;
+  text-decoration: none;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  width: 12%;
+  justify-content: space-around;
+}
+
+.contactIcon {
+  height: 20px;
+  width: 20px;
+  margin: auto 0px auto 2px;
+}
+
 
 .countryFlag {
   height: 15px;
-  margin-right: 4px;
-}
+  margin: auto 0px auto 2px;
 
-
-.countryContainer {
-  line-height: 60px;
-    text-decoration: none;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
-    font-size: 18px;
 }
