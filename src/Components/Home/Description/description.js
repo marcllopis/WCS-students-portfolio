@@ -7,7 +7,6 @@ const Description = () => {
   return (
     <div>
       <p>{state[0].description}</p>
-
     </div>
   );
 };
