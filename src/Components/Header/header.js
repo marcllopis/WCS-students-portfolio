@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './wildCodeLogo.png';
 import spainFlag from './spainFlag2.svg';
-import contactIcon from './contactIcon.png'
+import contactIcon from './contactIcon.png';
 import './header.css';
 
 
