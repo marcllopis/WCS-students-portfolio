@@ -1,0 +1,39 @@
+.titleContainer {
+  display: flex;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 14px;
+  box-shadow: 0px 10px 14px -1px rgba(0,0,0,0.1);
+  background: #ffffff;
+  justify-content: space-between;
+}
+
+
+.logoWCS {
+  height: 15%;
+  width: 15%;
+}
+
+.campusName {
+  font-family: 'Raleway', sans-serif;
+  color: #F76C6C;
+  font-size: 2.5em;
+  line-height: 2px;
+  
+}
+
+.countryFlag {
+  height: 15px;
+  margin-right: 4px;
+}
+
+
+.countryContainer {
+  line-height: 60px;
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 18px;
+}
