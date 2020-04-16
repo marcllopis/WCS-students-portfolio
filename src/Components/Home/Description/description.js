@@ -9,11 +9,11 @@ const IntroContainer = styled.div`
     background-position: 50rem;
     background-repeat: no-repeat;
     background-size: auto 100%;
+    padding: ${props => props.theme.paddings.default};
 `;
 
 const DescContainer = styled.div`
   max-width: 50%;
-  padding: ${props => props.theme.paddings.default};
   font-family: ${props => props.theme.fonts.varelaRound};
 `;
 
