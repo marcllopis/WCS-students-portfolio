@@ -1,9 +1,11 @@
 import React from 'react';
-
+import Header from '../Header/header';
+import Description from './Description/description';
 
 const Home = () => (
   <div>
-    <h1>HOME</h1>
+    <Header />
+    <Description />
   </div>
 );
 
