@@ -1,11 +1,8 @@
 export const theme = {
   // COLORS
-
   salmon: {
     default:'rgb(247,108,108)',
   },
-
-
   // PADDINGS & MARGINS
   paddings: {
     smallest: '8px',
@@ -27,5 +24,6 @@ export const theme = {
   fonts: {
     verdana: 'Verdana, sans-serif, arial',
     raleway: 'Raleway, sans-serif',
+    varelaRound: 'Varela Round, sans-serif',
   },
 };

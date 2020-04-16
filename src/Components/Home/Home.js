@@ -5,7 +5,6 @@ import Description from './Description/description';
 const Home = () => (
   <div>
     <Header />
-    <h1>HOME</h1>
     <Description />
   </div>
 );
