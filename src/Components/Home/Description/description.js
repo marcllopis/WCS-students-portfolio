@@ -1,6 +1,7 @@
 import React from 'react';
-import { Context } from '../../../Context/Provider';
 import styled from 'styled-components';
+import { Context } from '../../../Context/Provider';
+
 
 const IntroContainer = styled.div`
     width: 100%;
@@ -9,17 +10,17 @@ const IntroContainer = styled.div`
     background-position: 50rem;
     background-repeat: no-repeat;
     background-size: auto 100%;
-    padding: ${props => props.theme.paddings.default};
+    padding: ${(props) => props.theme.paddings.default};
 `;
 
 const DescContainer = styled.div`
   max-width: 50%;
-  font-family: ${props => props.theme.fonts.varelaRound};
+  font-family: ${(props) => props.theme.fonts.varelaRound};
 `;
 
 const TitleDescription = styled.h1`
   font-size: 2.8em;
-`
+`;
 
 const Description = () => {
   const { state } = React.useContext(Context);

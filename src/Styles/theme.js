@@ -1,7 +1,7 @@
 export const theme = {
   // COLORS
   salmon: {
-    default:'rgb(247,108,108)',
+    default: 'rgb(247,108,108)',
   },
   // PADDINGS & MARGINS
   paddings: {
