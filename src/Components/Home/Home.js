@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from '../Header/header';
 import Footer from '../Footer/Footer.js'
+import Description from './Description/description';
 
 const Home = () => (
   <div>
-    <h1>HOME</h1>
+    <Header />
+    <Description />
     <Footer/>
   </div>
 );
