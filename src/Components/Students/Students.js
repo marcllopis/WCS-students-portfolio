@@ -7,10 +7,8 @@ const Students = () => {
   return (
     <div>
       <p>Student profile</p>
-      <p>Name: {state[0].name}</p>
-      <p>Age: {state[0].age}</p>
-      <p>Nationality: {state[0].nationality}</p>
-      <p>Languages: {state[0].languages}</p>
+      <p>Name: {state.students[0].english.name}</p>
+      <p>Nationality: {state.students[0].english.nationality}</p>
     </div>
   );
 };

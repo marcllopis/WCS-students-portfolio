@@ -5,19 +5,16 @@ import contactIcon from './contactIcon.png';
 import './header.css';
 
 
-const Header = () => {
-  return (
-    <div className="titleContainer">
-      <img alt="logo WCS" src={logo} className="logoWCS" />
-      <h3 className="campusName">Barcelona Campus</h3>
-      <div className="countryContact">
-        <img alt="Spain" src={spainFlag} className="countryFlag" />
-        <img alt="Contact Icon" src={contactIcon} className="contactIcon" />
+const Header = () => (
+  <div className="titleContainer">
+    <img alt="logo WCS" src={logo} className="logoWCS" />
+    <h3 className="campusName">Barcelona Campus</h3>
+    <div className="countryContact">
+      <img alt="Spain" src={spainFlag} className="countryFlag" />
+      <img alt="Contact Icon" src={contactIcon} className="contactIcon" />
 
-      </div>
     </div>
-  );
-
-};
+  </div>
+);
 
 export default Header;
