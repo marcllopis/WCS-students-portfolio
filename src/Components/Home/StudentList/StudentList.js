@@ -7,8 +7,8 @@ const StudentList = () => {
   const { state } = React.useContext(Context);
   return (
 <div className="card-students">
-        <h3>{state[0].name}</h3>
-        <img src="https://cdn4.vectorstock.com/i/1000x1000/52/83/default-placeholder-profile-icon-vector-14065283.jpg" 
+        <h3 className="h3-card-title">{state[0].name}</h3>
+        <img  className="img-card" src="https://cdn4.vectorstock.com/i/1000x1000/52/83/default-placeholder-profile-icon-vector-14065283.jpg" 
         alt="student photo" />
   
       <div className="info" >
