@@ -4,8 +4,6 @@
   margin-left: 10px;
   width: 300px;
   box-shadow: 0.3em 0.3em Gainsboro;
-  
-
 }
 
 .img-card {
@@ -18,7 +16,7 @@
   padding: 10px;
   margin: auto;
   width: 250px;
-  /* If an element is taller than the element containing it, 
+  /* If an element is taller than the element containing it,
 and it is floated, it will "overflow" outside of its container: */
 }
 

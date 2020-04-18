@@ -14,7 +14,7 @@ Project developed for WCS to show the portfolio of the Barcelona bootcamp studen
 
 The app contains a global state controlled by the context provider.
 Every React component written should be treated as a pure function, it will use hooks if it need any React functionalities.
-It should follow the specified Eslint rules
+It should follow the specified Eslint rules, in order to run it, execute the `npx eslint src/`
 
 
 ## Git guidelines
