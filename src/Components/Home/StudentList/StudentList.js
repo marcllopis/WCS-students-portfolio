@@ -17,7 +17,7 @@ const StudentList = () => {
               <p>Nationality: {state[0].nationality}</p>
               <p>Languages: {state[0].languages}</p>
               <p className="short-descriptor">Short desription. Really!</p>
-              {/* <p>Also known as the "red cat-bear," red pandas munch on tons of bamboo and spend a great deal of time aloft in trees.</p> */}
+             
           </div>
            
            <button className='btn-student'>

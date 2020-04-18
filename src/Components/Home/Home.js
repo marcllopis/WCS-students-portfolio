@@ -7,12 +7,6 @@ const Home = () => (
     <h1>HOME</h1>
     <div className='cards'>
     <StudentList />
-    <StudentList />
-    <StudentList />
-    <StudentList />
-    <StudentList />
-    <StudentList />
-    <StudentList />
     </div>
   </div>
 );
