@@ -1,0 +1,23 @@
+/* .cards {
+  flex-wrap:wrap ;
+} */
+.cards {
+  display: flex;
+}
+/* .cards {
+  justify-content: space-around;
+} */
+
+
+/* let it sliede */
+@media (max-width:450px) {
+   .cards{
+      margin: 0.4em auto;
+  }
+}
+@media all and (max-width:30em) {
+  .cards  {
+    width: 75%;
+    margin: 0 auto;
+}
+}

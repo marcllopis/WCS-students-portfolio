@@ -1,0 +1,58 @@
+.card-students {
+  border: 1px solid Gainsboro;
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 300px;
+  box-shadow: 0.3em 0.3em Gainsboro;
+  
+
+}
+
+.img-card {
+  width: 80%;
+}
+
+/* applies to entire card info section */
+.info {
+  border: 1px solid Gainsboro;
+  padding: 10px;
+  margin: auto;
+  width: 250px;
+  /* If an element is taller than the element containing it, 
+and it is floated, it will "overflow" outside of its container: */
+}
+
+/* applies to image */
+.img-card {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+/* applies to list items */
+/* ul {
+  list-style-type: none;
+  padding: 0;
+} */
+
+/* applies to span elements, i.e., list titles */
+span {
+  font-weight: bold;
+}
+
+/* applies to h3 header */
+.h3-card-title {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px;
+  margin: auto;
+}
+
+/* applies to the punchy animal descriptor */
+.short-descriptor {
+  font-style: italic;
+}
+
+/* .container {
+  display: flex;
+} */
