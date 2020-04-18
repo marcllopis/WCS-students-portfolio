@@ -1,13 +1,15 @@
 import React from 'react';
-import StudentList from './StudentList/StudentList'
-import './Home.css'
+import Header from '../Header/header';
+import Footer from '../Footer/Footer.js'
+import Description from './Description/description';
+import StudentList from '../Home/StudentList/StudentList'
 
 const Home = () => (
-  <div className="home">
-    <h1>HOME</h1>
-    <div className='cards'>
+  <div>
+    <Header />
+    <Description />
     <StudentList />
-    </div>
+    <Footer/>
   </div>
 );
 
