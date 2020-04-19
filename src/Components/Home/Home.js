@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../Header/header';
+import Header from '../Header/Header';
 import Footer from '../Footer/Footer.js';
-import Description from './Description/description';
+import Description from './Description/Description';
 import StudentList from './StudentList/StudentList';
 
 

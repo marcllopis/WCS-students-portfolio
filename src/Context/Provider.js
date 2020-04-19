@@ -7,9 +7,20 @@ import { Texts } from '../Utils/Texts';
 export const Context = React.createContext();
 
 const AppContext = (props) => {
-  const [state] = useState({ students: StudentsList, texts: Texts });
+  const [state, setLanguage] = useState({
+    students: StudentsList,
+    texts: Texts,
+    language: 'english',
+  });
   return (
-    <Context.Provider value={{ state }}>
+    <Context.Provider value={{
+      state,
+      changeLanguage: (language) => setLanguage({
+        ...state,
+        language,
+      }),
+    }}
+    >
       {props.children}
     </Context.Provider>
   );
