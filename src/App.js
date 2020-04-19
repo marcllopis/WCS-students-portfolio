@@ -17,7 +17,7 @@ function App() {
         />
         <Route
           exact
-          path="/students"
+          path="/students/:studentId"
           render={(props) => <Students {...props} />}
         />
       </Switch>
