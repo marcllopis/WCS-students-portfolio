@@ -1,0 +1,25 @@
+.container-footer{
+  padding: 40px;
+  background-color: #39424e;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.container-footer a{
+  text-decoration:none;
+  color: white;
+}
+.container-footer li{
+  list-style:none
+}
+.container-logo img{
+  width:40px;
+}
+.logo{
+  width:30%
+}
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
