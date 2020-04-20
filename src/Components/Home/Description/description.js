@@ -28,7 +28,7 @@ const Description = () => {
     <IntroContainer>
       <DescContainer>
         <TitleDescription>Wild Code School</TitleDescription>
-        <p>{state[0].description}</p>
+        <p>{state.texts[state.language].header.description}</p>
       </DescContainer>
     </IntroContainer>
   );

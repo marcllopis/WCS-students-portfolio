@@ -1,14 +1,25 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { StudentsList } from '../Utils/StudentsList';
-import { Text } from '../Utils/text';
+import { Texts } from '../Utils/Texts';
 
 
 export const Context = React.createContext();
 const AppContext = (props) => {
-  const [state] = useState({ ...StudentsList, ...Text });
+  const [state, setLanguage] = useState({
+    students: StudentsList,
+    texts: Texts,
+    language: 'english',
+  });
   return (
-    <Context.Provider value={{ state }}>
+    <Context.Provider value={{
+      state,
+      changeLanguage: (language) => setLanguage({
+        ...state,
+        language,
+      }),
+    }}
+    >
       {props.children}
     </Context.Provider>
   );
