@@ -58,3 +58,35 @@
   margin: auto 0px auto 2px;
 
 }
+
+.modalContact{
+  display: block;
+  position: absolute;
+  max-height: 400px;
+  min-width: 200px;
+  max-width: 100%;
+  text-align: left;
+  z-index: 1000;
+  list-style: none;
+  padding: 0 1em;
+  background-color: #ffffff;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 2px 20px 0 rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 2px 20px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.1);
+  overflow-y: hidden;
+  margin-top: 80px;
+
+}
+
+
+.modalContact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

@@ -5,7 +5,6 @@ import { Text } from '../Utils/text';
 
 
 export const Context = React.createContext();
-
 const AppContext = (props) => {
   const [state] = useState({ ...StudentsList, ...Text });
   return (
