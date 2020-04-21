@@ -5,7 +5,6 @@ import { Texts } from '../Utils/Texts';
 
 
 export const Context = React.createContext();
-
 const AppContext = (props) => {
   const [state, setLanguage] = useState({
     students: StudentsList,

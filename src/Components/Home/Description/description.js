@@ -4,17 +4,20 @@ import { Context } from '../../../Context/Provider';
 
 
 const IntroContainer = styled.div`
-    width: 94%;
+    width: 96%;
     background-image: url('https://via.placeholder.com/300.png/09f/fff');
     right: 0;
-    background-position: 50rem;
+    background-position: 60rem;
     background-repeat: no-repeat;
     background-size: auto 100%;
     padding: ${(props) => props.theme.paddings.default};
+    @media (max-width: 360px) {
+      width: 86%;
+    }
 `;
 
 const DescContainer = styled.div`
-  max-width: 50%;
+  max-width: 60%;
   font-family: ${(props) => props.theme.fonts.varelaRound};
 `;
 
