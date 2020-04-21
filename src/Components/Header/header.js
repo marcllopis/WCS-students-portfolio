@@ -1,16 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './wildCodeLogo.png';
 import spainFlag from './spainFlag.svg';
 import englishFlag from './englishFlag.svg';
 import contactIcon from './contactIcon.png';
-import { Link } from 'react-router-dom';
 import { Context } from '../../Context/Provider';
 import './header.css';
-import { useState } from 'react';
 
 
 const Header = () => {
-  const { state } = React.useContext(Context);
   const [show, setShow] = useState(false);
 
 
@@ -22,14 +19,17 @@ const Header = () => {
       <div className="countryContact">
         <img onClick={() => changeLanguage('english')} alt="English" src={englishFlag} className="countryFlag" />
         <img onClick={() => changeLanguage('spanish')} alt="Spain" src={spainFlag} className="countryFlag" />
-          <img alt="Contact Icon" src={contactIcon} className="contactIcon"
-          onClick= {(e) => setShow(true)}/>
-          {show &&
-            <div className="modalContact">
+        <img
+          alt="Contact Icon" src={contactIcon} className="contactIcon"
+          onClick={(e) => setShow(true)}
+        />
+        {show &&
+          <div
+            className="modalContact"
+          >
             <h5>Contact</h5>
-            <ul></ul>
-            </div>
-          }
+            <ul />
+          </div>}
       </div>
     </div>
   );
