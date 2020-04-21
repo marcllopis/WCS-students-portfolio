@@ -10,6 +10,9 @@ const AppContext = (props) => {
     students: StudentsList,
     texts: Texts,
     language: 'english',
+    /*to save the choosed student with the more button */
+    student: '' 
+
   });
   return (
     <Context.Provider value={{
@@ -18,6 +21,10 @@ const AppContext = (props) => {
         ...state,
         language,
       }),
+      chooseStudent: (student) => setLanguage({
+        ...state,
+        student: state.students.indexOf(student)
+      })
     }}
     >
       {props.children}

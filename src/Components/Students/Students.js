@@ -1,16 +1,18 @@
 import React from 'react';
-import Header from '../Header/Header';
+import Header from '../Header/Header.js';
 import Footer from '../Footer/Footer.js';
 import { Context } from '../../Context/Provider';
 
 
-const Students = () => {
+const Students = (props) => {
   const { state } = React.useContext(Context);
+  console.log(state.student)
   return (
     <div>
       <Header />
       <p>Student profile</p>
-      <p>Name: {state.students[0][state.language].name}</p>
+      {/*here is the problem, state.student is the index of the student in the array, but it's only saved when you choose it in the main page. We haven't resolved how to put all the students rutes related with the data if you want to go inside the student page by the route */}
+      <p>Name: {state.students[state.student][state.language].name}</p>
       <p>Nationality: {state.students[0][state.language].from}</p>
       <p>Living In: {state.students[0][state.language].livingIn}</p>
       <p>Date of Birth: {state.students[0][state.language].dateOfBirth}</p>
