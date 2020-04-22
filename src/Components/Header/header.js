@@ -8,7 +8,6 @@ import './header.css';
 
 
 const Header = () => {
-  const { state } = React.useContext(Context);
   const { changeLanguage } = React.useContext(Context);
   const [show, setShow] = useState(false);
 
@@ -21,7 +20,7 @@ const Header = () => {
         <img onClick={() => changeLanguage('spanish')} alt="Spain" src={spainFlag} className="countryFlag" />
         <img
           alt="Contact Icon" src={contactIcon} className="contactIcon"
-          onClick={(e) => setShow(true)}
+          onClick={() => setShow(true)}
         />
         {show &&
           <div

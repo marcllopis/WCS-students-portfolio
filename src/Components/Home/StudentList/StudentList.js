@@ -6,8 +6,8 @@ import { Context } from '../../../Context/Provider';
 
 
 const StudentList = () => {
-  const { state } = React.useContext(Context);
-  const { chooseStudent } = React.useContext(Context);
+  const { state, getCurrentStudent } = React.useContext(Context);
+
   return (
     <div>
       {
@@ -29,7 +29,11 @@ const StudentList = () => {
 
               </div>
 
-              <button type="button" className="btn-student" onClick={() => chooseStudent(student)}>
+              <button
+                type="button"
+                className="btn-student"
+                onClick={() => getCurrentStudent(student)}
+              >
                 <Link to={`/students/${student.english.name}`}>See more</Link>
               </button>
 

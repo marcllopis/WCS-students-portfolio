@@ -6,25 +6,24 @@ import { Texts } from '../Utils/Texts';
 
 export const Context = React.createContext();
 const AppContext = (props) => {
-  const [state, setLanguage] = useState({
+  const [state, changeState] = useState({
     students: StudentsList,
     texts: Texts,
-    language: 'english',
-    /*to save the choosed student with the more button */
-    student: '' 
-
+    language: 'english', // default language
+    currentStudent: '',
   });
+
   return (
     <Context.Provider value={{
       state,
-      changeLanguage: (language) => setLanguage({
+      changeLanguage: (language) => changeState({
         ...state,
         language,
       }),
-      chooseStudent: (student) => setLanguage({
+      getCurrentStudent: (currentStudent) => changeState({
         ...state,
-        student: state.students.indexOf(student)
-      })
+        currentStudent,
+      }),
     }}
     >
       {props.children}
