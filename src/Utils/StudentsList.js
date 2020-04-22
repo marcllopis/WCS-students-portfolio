@@ -1,7 +1,7 @@
 export const StudentsList = [
   {
     english: {
-      name: 'Your name 1',
+      name: 'Yourname1',
       email: 'Your email 1',
       from: 'where are you from 1',
       livingIn: 'city where you live 1',

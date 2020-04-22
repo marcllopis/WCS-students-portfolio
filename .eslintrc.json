@@ -38,6 +38,7 @@
         "global-require": 0,
         "implicit-arrow-linebreak": 0,
         "import/extensions": 0,
+        "no-useless-concat": 0,
         "import/no-dynamic-require": 0,
         "import/no-extraneous-dependencies": [
             "error",
