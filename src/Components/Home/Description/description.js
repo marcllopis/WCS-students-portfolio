@@ -4,7 +4,7 @@ import { Context } from '../../../Context/Provider';
 
 
 const IntroContainer = styled.div`
-    width: 96%;
+    width: 95%;
     background-image: url('https://via.placeholder.com/300.png/09f/fff');
     right: 0;
     background-position: 60rem;

@@ -1,30 +1,46 @@
+.containerStudentsHome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 3px;
+  width: 95%;
+  padding: 3%;
+}
+
 .card-students {
   border: 1px solid Gainsboro;
   border-radius: 5px;
-  margin-left: 10px;
-  width: 300px;
-  box-shadow: 0.3em 0.3em Gainsboro;
+  width: 25%;
+  margin: 3%;
+
+}
+
+.studentImgContainer {
+  background-color: #CEE0D0;
+  padding: 0 3% 0 3%;
 }
 
 .img-card {
-  width: 80%;
+  width: 100%;
+
 }
 
 /* applies to entire card info section */
 .info {
   border: 1px solid Gainsboro;
   padding: 10px;
-  margin: auto;
-  width: 250px;
+  margin-top: -8px;
+  position: relative;
+  z-index: 0;
   /* If an element is taller than the element containing it,
 and it is floated, it will "overflow" outside of its container: */
 }
 
 /* applies to image */
 .img-card {
-  display: block;
+  position: relative;
   margin: auto;
-  margin-bottom: 10px;
+  z-index: 0;
 }
 
 /* applies to list items */
@@ -42,8 +58,24 @@ span {
 .h3-card-title {
   font-weight: bold;
   font-size: 24px;
-  padding: 10px;
+  width: 74%;
+  background-color: #7C947E;
+  z-index: 99;
+  margin-top: -40px;
+  position: relative;
+  text-align: center;
+  margin-left: 15%;
+  border: 1.5px solid white;
+  outline: 3px solid #7C947E;
+
+}
+
+.h3-card-title h3 {
+  width: 100%;
+  padding: 3%;
   margin: auto;
+  color: white;
+
 }
 
 /* applies to the punchy animal descriptor */

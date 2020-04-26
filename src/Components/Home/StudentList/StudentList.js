@@ -9,17 +9,20 @@ const StudentList = () => {
   const { state, getCurrentStudent } = React.useContext(Context);
 
   return (
-    <div>
+    <div className="containerStudentsHome">
       {
         state.students.map((student) => (
           <div key={shortId.generate()} className="card-students">
-            <h3 className="h3-card-title">{student.english.name}</h3>
-            <img
-              className="img-card"
-              src="https://cdn4.vectorstock.com/i/1000x1000/52/83/default-placeholder-profile-icon-vector-14065283.jpg"
-              alt="student profile"
-            />
-
+            <div className="studentImgContainer">
+              <img
+                className="img-card"
+                src="https://cdn4.vectorstock.com/i/1000x1000/52/83/default-placeholder-profile-icon-vector-14065283.jpg"
+                alt="student profile"
+              />
+            </div>
+            <div className="h3-card-title">
+              <h3>{student.english.name}</h3>
+            </div>
             <div className="info">
               <div className="box-info">
                 <p>Age: {student.english.age}</p>
