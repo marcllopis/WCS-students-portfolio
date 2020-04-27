@@ -1,4 +1,4 @@
-.container-footer{
+/* .container-footer{
   padding: 40px;
   background-color: #39424e;
   display: flex;
@@ -22,4 +22,26 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+} */
+
+.footer-container {
+  padding: 40px;
+  background-color: #39424e;
+  display: flex;
+  color: white;
+}
+
+.left-side {
+  display: flex;
+  width: 90%;
+}
+.container-logo img {
+  width:40px;
+  padding: 5px;
+}
+
+.logo {
+  width:100px;
+  padding-right: 20px;
+  height: auto;
 }
