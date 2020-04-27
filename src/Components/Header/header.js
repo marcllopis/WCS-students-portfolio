@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from './wildCodeLogo.png';
+// import logo from './wildCodeLogo.png';
 import spainFlag from './spainFlag.svg';
 import englishFlag from './englishFlag.svg';
 import contactIcon from './contactIcon.png';
@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <div className="titleContainer">
-      <img alt="logo WCS" src={logo} className="logoWCS" />
+      {/* <img alt="logo WCS" src={logo} className="logoWCS" /> */}
       <h3 className="campusName">Barcelona Campus</h3>
       <div className="countryContact">
         <img onClick={() => changeLanguage('english')} alt="English" src={englishFlag} className="countryFlag" />
