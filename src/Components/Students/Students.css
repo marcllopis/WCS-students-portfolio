@@ -1,5 +1,5 @@
 .profile-header{
-  background: url('https://hdwallpaperim.com/wp-content/uploads/2017/09/16/54141-Barcelona-city-aerial_view-church-building-Spain.jpg');
+  background-image: url("/background.jpg");
   background-position: center; /* Center the image */
   width: 100%;
   height: 40vh;
