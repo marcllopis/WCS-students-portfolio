@@ -1,6 +1,7 @@
 import Montjuic from './img/projects/montjuic.png';
 import PlayWith from './img/projects/playwith.png';
 import Vanguardia from './img/projects/vanguardia.png';
+import TestPicture from './img/profileTestPic.png';
 
 
 export const StudentsList = [
@@ -12,7 +13,7 @@ export const StudentsList = [
       livingIn: 'Barcelona',
       dateOfBirth: '22/03/1993',
       linkedin: 'https://www.linkedin.com/in/lena-kujath-85a719198',
-      profilePicture: 'https://images-na.ssl-images-amazon.com/images/I/71cNsDvH3sL.png',
+      profilePicture: TestPicture,
       languages: ['german', 'english', 'spanish', 'french'],
       shortDescription: 'Curious programmer, eager to constantely learn new things and passionate about solving interesting problems creatively.',
       longDescription: [
@@ -55,7 +56,7 @@ export const StudentsList = [
       livingIn: 'Barcelona',
       dateOfBirth: '22/03/1993',
       linkedin: 'https://www.linkedin.com/in/lena-kujath-85a719198',
-      profilePicture: 'https://images-na.ssl-images-amazon.com/images/I/71cNsDvH3sL.png',
+      profilePicture: TestPicture,
       languages: ['german', 'english', 'spanish', 'french'],
       shortDescription: 'Programadora curiosa, con ganas de aprender siempre y apasionada de resolver problemas interesantes creativamente.',
       longDescription: [
@@ -100,7 +101,7 @@ export const StudentsList = [
       livingIn: 'Barcelona',
       dateOfBirth: '11/02/1998',
       linkedin: 'https://www.linkedin.com/in/ailinaozola/',
-      profilePicture: 'https://images-na.ssl-images-amazon.com/images/I/71cNsDvH3sL.png',
+      profilePicture: TestPicture,
       languages: ['spanish', 'english', 'portuguese'],
       shortDescription: 'The youngest of the group with 22 years of life and the rest to code',
       longDescription: [
@@ -145,7 +146,7 @@ export const StudentsList = [
       livingIn: 'Barcelona',
       dateOfBirth: '11/02/1998',
       linkedin: 'https://www.linkedin.com/in/ailinaozola/',
-      profilePicture: 'https://images-na.ssl-images-amazon.com/images/I/71cNsDvH3sL.png',
+      profilePicture: TestPicture,
       languages: ['spanish', 'english', 'portuguese'],
       shortDescription: 'The youngest of the group with 22 years of life and the rest to code',
       longDescription: [
@@ -192,7 +193,7 @@ export const StudentsList = [
       livingIn: 'Barcelona',
       dateOfBirth: '29/04/1990',
       linkedin: 'https://www.linkedin.com/in/alexandrina-serediuc-a33678195/',
-      profilePicture: 'https://images-na.ssl-images-amazon.com/images/I/71cNsDvH3sL.png',
+      profilePicture: TestPicture,
       languages: ['romanian', 'russian', 'english', 'italian', 'spanish'],
       shortDescription: 'I\'m a junior web develoer with a strong will to learn and grow',
       longDescription: [
@@ -244,7 +245,7 @@ export const StudentsList = [
       livingIn: 'Barcelona',
       dateOfBirth: '29/04/1990',
       linkedin: 'https://www.linkedin.com/in/alexandrina-serediuc-a33678195/',
-      profilePicture: 'https://images-na.ssl-images-amazon.com/images/I/71cNsDvH3sL.png',
+      profilePicture: TestPicture,
       languages: ['romanian', 'russian', 'english', 'italian', 'spanish'],
       shortDescription: 'I\'m a junior web develoer with a strong will to learn and grow',
       longDescription: [
@@ -298,7 +299,7 @@ export const StudentsList = [
       livingIn: 'Barcelona',
       dateOfBirth: '13/12/1995',
       linkedin: 'https://www.linkedin.com/in/vlada-masko/',
-      profilePicture: 'https://images-na.ssl-images-amazon.com/images/I/71cNsDvH3sL.png',
+      profilePicture: TestPicture,
       languages: ['spanish', 'english', 'ukranian', 'russian'],
       shortDescription: 'Short description about yourself, it will be on the landing page',
       longDescription: [
@@ -341,7 +342,7 @@ export const StudentsList = [
       livingIn: 'Barcelona',
       dateOfBirth: '13/12/1995',
       linkedin: 'https://www.linkedin.com/in/vlada-masko/',
-      profilePicture: 'https://images-na.ssl-images-amazon.com/images/I/71cNsDvH3sL.png',
+      profilePicture: TestPicture,
       languages: ['spanish', 'english', 'ukranian', 'russian'],
       shortDescription: 'Short description about yourself, it will be on the landing page',
       longDescription: [
@@ -386,7 +387,7 @@ export const StudentsList = [
       livingIn: 'Barcelona',
       dateOfBirth: '07/08/1993',
       linkedin: 'https://www.linkedin.com/in/mireia-gom%C3%A0riz-8a7a0489/',
-      profilePicture: 'https://images-na.ssl-images-amazon.com/images/I/71cNsDvH3sL.png',
+      profilePicture: TestPicture,
       languages: ['spanish', 'english', 'catalan'],
       shortDescription: 'FullStack web developer with sales and sanitary background',
       longDescription: [
@@ -429,7 +430,7 @@ export const StudentsList = [
       livingIn: 'Barcelona',
       dateOfBirth: '07/08/1993',
       linkedin: 'https://www.linkedin.com/in/mireia-gom%C3%A0riz-8a7a0489/',
-      profilePicture: 'https://images-na.ssl-images-amazon.com/images/I/71cNsDvH3sL.png',
+      profilePicture: TestPicture,
       languages: ['spanish', 'english', 'catalan'],
       shortDescription: 'FullStack web developer with sales and sanitary background',
       longDescription: [
