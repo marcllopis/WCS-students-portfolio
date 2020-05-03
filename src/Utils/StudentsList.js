@@ -120,7 +120,7 @@ export const StudentsList = [
           projectGithub: 'https://github.com/LaVanguardia',
           projectLink: 'link to project1',
           projectDescription: 'Creation of a new and innovative game section for newspaper\'s users and personalizing it and integrating it into their digital plataform in order to create more engagement.',
-          collaborators: ['Vlada Masko', 'Mireia Pérez', 'Julie Brosse'],
+          collaborators: ['Vlada Masko', 'Mireia Gomariz', 'Julie Brosse'],
           technologies: ['react', 'javascript', 'bootstrap'],
         },
         {
@@ -165,7 +165,7 @@ export const StudentsList = [
           projectGithub: 'https://github.com/LaVanguardia',
           projectLink: 'link to project1',
           projectDescription: 'Creation of a new and innovative game section for newspaper\'s users and personalizing it and integrating it into their digital plataform in order to create more engagement.',
-          collaborators: ['Vlada Masko', 'Mireia Pérez', 'Julie Brosse'],
+          collaborators: ['Vlada Masko', 'Mireia Gomariz', 'Julie Brosse'],
           technologies: ['react', 'javascript', 'bootstrap'],
         },
         {
@@ -210,7 +210,7 @@ export const StudentsList = [
           projectImage: PlayWith,
           projectLink: 'link to project1',
           projectDescription: 'First bootcamp project, made in one week (the first week of the bootcamp)with HTML,CSS and Bootstrap.Great way of meeting all the classmates by starting working as a team right from the start.',
-          collaborators: ['Mireia Pérez', 'Ailina Ozola'],
+          collaborators: ['Mireia Gomariz', 'Ailina Ozola'],
           technologies: ['html', 'css', 'bootstrap'],
         },
         {
@@ -262,7 +262,7 @@ export const StudentsList = [
           projectImage: PlayWith,
           projectLink: 'link to project1',
           projectDescription: 'First bootcamp project, made in one week (the first week of the bootcamp)with HTML,CSS and Bootstrap.Great way of meeting all the classmates by starting working as a team right from the start.',
-          collaborators: ['Mireia Pérez', 'Ailina Ozola'],
+          collaborators: ['Mireia Gomariz', 'Ailina Ozola'],
           technologies: ['html', 'css', 'bootstrap'],
         },
         {
@@ -325,7 +325,7 @@ export const StudentsList = [
           projectGithub: 'https://github.com/LaVanguardia/LaVanguardia',
           projectLink: 'https://zen-shaw-4b92a9.netlify.app/',
           projectDescription: 'description about project2',
-          collaborators: ['Mireia Pérez', 'Ailina Ozola', 'Julie Brosse'],
+          collaborators: ['Mireia Gomariz', 'Ailina Ozola', 'Julie Brosse'],
           technologies: ['react'],
         },
       ],
@@ -368,7 +368,7 @@ export const StudentsList = [
           projectGithub: 'https://github.com/LaVanguardia/LaVanguardia',
           projectLink: 'https://zen-shaw-4b92a9.netlify.app/',
           projectDescription: 'description about project2',
-          collaborators: ['Mireia Pérez', 'Ailina Ozola', 'Julie Brosse'],
+          collaborators: ['Mireia Gomariz', 'Ailina Ozola', 'Julie Brosse'],
           technologies: ['react'],
         },
       ],
@@ -381,7 +381,7 @@ export const StudentsList = [
   },
   {
     english: {
-      name: 'Mireia Pérez',
+      name: 'Mireia Gomariz',
       email: 'mireiapgomariz@gmail.com',
       from: 'Barcelona',
       livingIn: 'Barcelona',
@@ -424,7 +424,7 @@ export const StudentsList = [
       calendly: 'https://calendly.com/mireiapgomariz',
     },
     spanish: {
-      name: 'Mireia Pérez',
+      name: 'Mireia Gomariz',
       email: 'mireiapgomariz@gmail.com',
       from: 'Barcelona',
       livingIn: 'Barcelona',

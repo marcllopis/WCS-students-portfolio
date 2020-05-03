@@ -17,7 +17,7 @@ const StudentList = () => {
         <div className="list-of-students-container">
           {
             state.students.map((student) => (
-              <Fade bot>
+              <Fade key={shortId.generate()} bot>
                 <div key={shortId.generate()} className="card-students">
                   <div className="img-student">
                     <img

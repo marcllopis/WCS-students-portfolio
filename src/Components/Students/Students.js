@@ -49,7 +49,7 @@ const Students = () => {
                   </div>
                   <div className="profile-right">
                     <div>
-                      {myStudent[state.language].languages.map((language) => <img className="language-image" src={Flags[language]} alt="language" />)}
+                      {myStudent[state.language].languages.map((language) => <img className="language-image" key={shortId.generate()} src={Flags[language]} alt="language" />)}
                     </div>
                     <p className="birth-date">{myStudent[state.language].dateOfBirth}</p>
                   </div>
@@ -57,7 +57,7 @@ const Students = () => {
               </div>
             </div>
             <div className="flags-mvl">
-              {myStudent[state.language].languages.map((language) => <img className="language-image" src={Flags[language]} alt="language" />)}
+              {myStudent[state.language].languages.map((language) => <img className="language-image" key={shortId.generate()} src={Flags[language]} alt="language" />)}
             </div>
             <div className="cities-mvl">
               <p className="from-living-mvl">{state.texts[state.language].profile.from} <span className="from-living-city-mvl">{myStudent[state.language].from}</span></p>
@@ -142,7 +142,7 @@ const Students = () => {
                       <span className="project-collaborators" key={shortId.generate()}>
                         {
                           checkIfStudent(collaborator).length > 0
-                            ? <span><span role="img" aria-label="emoji"> 👤</span><Link style={{ textDecoration: 'none' }} to={`/students/${collaborator}`}><span className="collaborator-link">{collaborator} </span></Link></span>
+                            ? <span><span role="img" aria-label="emoji"> 👤</span><Link style={{ textDecoration: 'none' }} target="_blank" to={`/students/${collaborator}`}><span className="collaborator-link">{collaborator} </span></Link></span>
                             : <span className="collaborator-no-link">{collaborator} </span>
                         }
                       </span>

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import shortId from 'shortid';
 import { Context } from '../../../Context/Provider';
 
 
@@ -45,7 +46,7 @@ const Description = () => {
       <DescContainer>
         <TitleDescription>Fullstack bootcamp Barcelona</TitleDescription>
         {state.texts[state.language].header.description.map((paragraph) =>
-          <p>{paragraph}</p>)}
+          <p key={shortId.generate()}>{paragraph}</p>)}
       </DescContainer>
       <ImageContainer />
     </IntroContainer>
