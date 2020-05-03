@@ -7,7 +7,7 @@ import { Context } from '../../../Context/Provider';
 const IntroContainer = styled.div`
     width: 100%;
     display: flex;
-    @media(max-width: 375px) {
+    @media(max-width: 600px) {
       flex-direction: column-reverse;
     }
 `;
@@ -16,7 +16,7 @@ const DescContainer = styled.div`
   max-width: 60%;
   font-family: ${(props) => props.theme.fonts.varelaRound};
   padding: ${(props) => props.theme.paddings.default};
-  @media(max-width: 375px) {
+  @media(max-width: 600px) {
     max-width: 90%;
     padding-left: 5%;
     padding-right: 5%;
@@ -33,7 +33,7 @@ const ImageContainer = styled.div`
   height: 500px;
   background-color: aquamarine;
   padding: ${(props) => props.theme.paddings.default};
-  @media(max-width: 375px) {
+  @media(max-width: 600px) {
     width: 100%;
     padding: 0px;
   }

@@ -117,7 +117,7 @@ and it is floated, it will "overflow" outside of its container: */
   height: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   .list-of-students-container{
     width: 90%;
   }
