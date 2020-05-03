@@ -1,11 +1,14 @@
 .titleContainer {
   display: flex;
-  padding-left: 14px;
-  padding-right: 14px;
-  box-shadow: 0px 10px 14px -1px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.1);
   background: #ffffff;
   justify-content: space-between;
   position: sticky;
+  width: 100%;
+}
+
+.bootcampName{
+  margin-left: 10px;
 }
 
 .logoWCS {
@@ -18,7 +21,6 @@
   color: #F76C6C;
   font-size: 2em;
   line-height: 2px;
-
 }
 
 
@@ -32,26 +34,14 @@
   font-size: 18px;
   display: flex;
   flex-direction: row;
-  width: 12%;
+  width: 5%;
   justify-content: space-around;
+  margin-right: 30px;
 }
-
-.contactIcon {
-  margin: auto 0px auto 2px;
-  height: 20px;
-  width: 20px;
-  border: 1px solid black;
-  border-radius: 100%;
-  padding: 7px;
-}
-
-
-
 
 .countryFlag {
   height: 15px;
   margin: auto 0px auto 2px;
-
 }
 
 .modalContact{
@@ -85,13 +75,18 @@
   margin: 0;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
+  .titleContainer {
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 100%;
+  }
+
   .campusName {
     font-family: 'Raleway', sans-serif;
     color: #F76C6C;
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 2px;
-
   }
 
   .contactIcon {
@@ -116,7 +111,8 @@
     padding: 0 0.5em;
   }
 
-  .titleContainer {
-    padding-right: 9%;
+  .countryFlag {
+    height: 15px;
+    margin: auto 0px auto 10px;
   }
 }

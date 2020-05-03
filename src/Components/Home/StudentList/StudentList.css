@@ -1,13 +1,65 @@
+.main-page-main-students-container{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.developers{
+  margin-left: 20px;
+}
+
+.list-of-students-container{
+  width: 70%;
+}
+.separator{
+  display: none;
+}
+.card-students:nth-child(even) .img-student {order:1}
+.card-students:nth-child(even) .student-quote {
+  order:2;
+  text-align: left;
+}
+
+.card-students:nth-child(odd) .img-student {order:2}
+.card-students:nth-child(odd) .img-card {transform: rotate(5deg)}
+.card-students:nth-child(odd) .student-quote {
+  order:1;
+  text-align: right;
+}
+
 .card-students {
-  border: 1px solid Gainsboro;
-  border-radius: 5px;
-  margin-left: 10px;
-  width: 300px;
-  box-shadow: 0.3em 0.3em Gainsboro;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.img-student{
+  order: 1;
+  width: 20%;
+}
+
+.student-quote{
+  order: 2;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 80%;
+}
+
+.student-list-from {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 0.7em;
+  color: black;
 }
 
 .img-card {
-  width: 80%;
+  transform: rotate(-5deg);
+  margin-bottom: 10px;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0 0 28px 28px white inset;
 }
 
 /* applies to entire card info section */
@@ -20,37 +72,114 @@
 and it is floated, it will "overflow" outside of its container: */
 }
 
-/* applies to image */
-.img-card {
-  display: block;
-  margin: auto;
-  margin-bottom: 10px;
-}
-
-/* applies to list items */
-/* ul {
-  list-style-type: none;
-  padding: 0;
-} */
-
-/* applies to span elements, i.e., list titles */
-span {
-  font-weight: bold;
-}
 
 /* applies to h3 header */
 .h3-card-title {
   font-weight: bold;
-  font-size: 24px;
-  padding: 10px;
-  margin: auto;
+  font-size: 2em;
+  line-height: 0em;
+  color: rgb(247,108,108);
 }
 
 /* applies to the punchy animal descriptor */
-.short-descriptor {
+.short-description {
   font-style: italic;
+  font-weight: 300;
+  font-size: 1.8em;
 }
 
-/* .container {
+.name-and-from {
   display: flex;
-} */
+}
+
+.name-in-description{
+  width: 70%;
+}
+
+.button-in-description{
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.card-students:nth-child(odd) .name-in-description {order:1}
+.card-students:nth-child(even) .button-in-description {
+  order:1;
+}
+
+.btn-student{
+  background-color:  rgb(247,108,108);
+  color: white;
+  font-size: 1.5em;
+  border-radius: 5px;
+  width: 140px;
+  height: 50px;
+}
+
+@media (max-width: 375px) {
+  .list-of-students-container{
+    width: 90%;
+  }
+  .separator{
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .card-students {
+    flex-direction: column;
+  }
+  .card-students:nth-child(even) .img-student {order:1}
+  .card-students:nth-child(even) .student-quote {
+    order:2;
+    text-align: left;
+  }
+
+  .card-students:nth-child(even) .name-in-description {order:1}
+  .card-students:nth-child(even) .button-in-description {
+  order:2;
+  }
+  .card-students:nth-child(odd) .name-in-description {order:1}
+  .card-students:nth-child(odd) .button-in-description {
+  order:2;
+  }
+
+  .card-students:nth-child(odd) .img-student {order:1}
+  .card-students:nth-child(odd) .img-card {transform: rotate(0deg)}
+  .card-students:nth-child(odd) .student-quote {
+    order:1;
+    text-align: left;
+  }
+
+  .student-quote{
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
+
+  .img-student{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .img-card{
+    width: 50%;
+    transform: rotate(0deg);
+  }
+
+  .h3-card-title{
+    line-height: 1em;
+  }
+  .button-in-description{
+    width: 40%;
+    display: flex;
+  }
+  .btn-student{
+    float: right;
+  }
+  .student-list-from{
+    display: block;
+  }
+};

@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header/header';
-import Footer from '../Footer/Footer.js';
+// import Footer from '../Footer/Footer.js';
 import Description from './Description/description';
 import StudentList from './StudentList/StudentList';
 
@@ -10,7 +10,7 @@ const Home = () => (
     <Header />
     <Description />
     <StudentList />
-    <Footer />
+    {/* <Footer /> no needed yet */}
   </div>
 );
 
