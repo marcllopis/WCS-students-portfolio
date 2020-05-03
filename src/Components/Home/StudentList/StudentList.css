@@ -182,4 +182,4 @@ and it is floated, it will "overflow" outside of its container: */
   .student-list-from{
     display: block;
   }
-};
+}
