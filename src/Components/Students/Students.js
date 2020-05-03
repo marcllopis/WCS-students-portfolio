@@ -100,7 +100,7 @@ const Students = () => {
                 </h2>
                 <hr className="separator-student" />
                 {myStudent[state.language].longDescription.map((paragraph) =>
-                  <p>{paragraph}</p>)}
+                  <p key={shortId.generate()}>{paragraph}</p>)}
                 <p className="living-mvl">{state.texts[state.language].profile.living} <span className="from-living-city-mvl">{myStudent[state.language].livingIn}</span></p>
                 <div className="tech-right">
                   <span className="technologies-used">{state.texts[state.language].profile.tech}</span> {myStudent[state.language].technologies.map((technology) => (

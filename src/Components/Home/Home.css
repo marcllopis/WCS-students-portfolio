@@ -10,7 +10,7 @@
 
 
 /* let it sliede */
-@media (max-width:450px) {
+@media (max-width: 600px) {
    .cards{
       margin: 0.4em auto;
   }
