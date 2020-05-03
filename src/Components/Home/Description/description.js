@@ -4,25 +4,38 @@ import { Context } from '../../../Context/Provider';
 
 
 const IntroContainer = styled.div`
-    width: 96%;
-    background-image: url('https://via.placeholder.com/300.png/09f/fff');
-    right: 0;
-    background-position: 60rem;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    padding: ${(props) => props.theme.paddings.default};
-    @media (max-width: 360px) {
-      width: 86%;
+    width: 100%;
+    display: flex;
+    @media(max-width: 375px) {
+      flex-direction: column-reverse;
     }
 `;
 
 const DescContainer = styled.div`
   max-width: 60%;
   font-family: ${(props) => props.theme.fonts.varelaRound};
+  padding: ${(props) => props.theme.paddings.default};
+  @media(max-width: 375px) {
+    max-width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+  }
 `;
 
 const TitleDescription = styled.h1`
   font-size: 2.8em;
+`;
+
+const ImageContainer = styled.div`
+  width: 40%;
+  height: 500px;
+  background-color: aquamarine;
+  padding: ${(props) => props.theme.paddings.default};
+  @media(max-width: 375px) {
+    width: 100%;
+    padding: 0px;
+  }
 `;
 
 const Description = () => {
@@ -30,9 +43,11 @@ const Description = () => {
   return (
     <IntroContainer>
       <DescContainer>
-        <TitleDescription>Wild Code School</TitleDescription>
-        <p>{state.texts[state.language].header.description}</p>
+        <TitleDescription>Fullstack bootcamp Barcelona</TitleDescription>
+        {state.texts[state.language].header.description.map((paragraph) =>
+          <p>{paragraph}</p>)}
       </DescContainer>
+      <ImageContainer />
     </IntroContainer>
   );
 };

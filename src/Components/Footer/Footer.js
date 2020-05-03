@@ -2,7 +2,6 @@ import React from 'react';
 import './Footer.css';
 import logo from '../../Utils/img/wcs_logo_footer.png';
 import facebook from '../../Utils/img/facebook-logo.png';
-import twitter from '../../Utils/img/twitter-logo.png';
 import linkedin from '../../Utils/img/linkedin-logo.png';
 import youtube from '../../Utils/img/youtube-logo.png';
 import github from '../../Utils/img/github-logo.png';
@@ -16,7 +15,6 @@ const Footer = () => (
       <img className="logo" src={logo} alt="wildcodeschool logo" />
       <div className="container-logo">
         <a href="https://www.facebook.com/wildcodeschoolspain" target="_blank" rel="noopener noreferrer" title="The Wild en Facebook"><img src={facebook} alt="facebook" /></a>
-        <a href="https://twitter.com/WildcodeschoolM" target="_blank" rel="noopener noreferrer" title="The Wild en Twitter"><img src={twitter} alt="twitter" /></a>
         <a href="https://www.linkedin.com/school/wild-codes-chool/" target="_blank" rel="noopener noreferrer" title="The Wild en LinkedIn"><img src={linkedin} alt="linkedin" /></a>
         <a href="https://www.youtube.com/channel/UCi99G_0QPx5sYsK8zdvQzfw" target="_blank" rel="noopener noreferrer" title="The Wild on Youtube"><img src={youtube} alt="" /></a>
         <a href="https://github.com/WildCodeSchool" target="_blank" rel="noopener noreferrer" title="The Wild on Github"><img src={github} alt="youtube" /></a>
