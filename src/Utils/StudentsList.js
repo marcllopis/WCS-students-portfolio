@@ -1,6 +1,10 @@
-import Montjuic from './img/projects/montjuic.png';
-import PlayWith from './img/projects/playwith.png';
-import Vanguardia from './img/projects/vanguardia.png';
+import Montjuic from './img/projects/montjuicBG.jpg';
+import PlayWith from './img/projects/playwithBG.jpg';
+import Vanguardia from './img/projects/vanguardiaBG.jpg';
+import Gracia from './img/projects/graciaBG.jpg';
+import Pegatina from './img/projects/pegatinaBG.jpg';
+import Animate from './img/projects/animateBG.jpg';
+import RickAndMorty from './img/projects/rickMortyBG.jpg';
 import TestPicture from './img/profileTestPic.png';
 
 
@@ -39,7 +43,7 @@ export const StudentsList = [
           projectGithub: 'https://github.com/rutabello/PlayWith',
           projectLink: 'playwith.es',
           projectDescription: 'Gamification of music discovery',
-          collaborators: ['Ruth Abelló Cort', 'Ailina Ozola'],
+          collaborators: ['Ruth Abelló', 'Ailina Ozola'],
           technologies: ['react', 'css'],
         },
       ],
@@ -82,7 +86,7 @@ export const StudentsList = [
           projectGithub: 'https://github.com/rutabello/PlayWith',
           projectLink: 'playwith.es',
           projectDescription: 'Te permite encontrar nueva música de todo el mundo jugando',
-          collaborators: ['Ruth Abelló Cort', 'Ailina Ozola'],
+          collaborators: ['Ruth Abelló', 'Ailina Ozola'],
           technologies: ['react', 'css'],
         },
       ],
@@ -129,7 +133,7 @@ export const StudentsList = [
           projectGithub: 'https://github.com/rutabello/PlayWith',
           projectLink: 'https://playwith.es/',
           projectDescription: 'PlayWith it\'s a fun way to discover new music from all around the world while playing a quizz game',
-          collaborators: ['Rut Abello', 'Lena Kujath'],
+          collaborators: ['Ruth Abelló', 'Lena Kujath'],
           technologies: ['react'],
         },
       ],
@@ -174,7 +178,7 @@ export const StudentsList = [
           projectGithub: 'https://github.com/rutabello/PlayWith',
           projectLink: 'https://playwith.es/',
           projectDescription: 'PlayWith it\'s a fun way to discover new music from all around the world while playing a quizz game',
-          collaborators: ['Rut Abello', 'Lena Kujath'],
+          collaborators: ['Ruth Abelló', 'Lena Kujath'],
           technologies: ['react'],
         },
       ],
@@ -207,7 +211,7 @@ export const StudentsList = [
         {
           projectName: 'StreetsOfGracia',
           projectGithub: 'https://github.com/mireiaGomariz/project1',
-          projectImage: PlayWith,
+          projectImage: Gracia,
           projectLink: 'link to project1',
           projectDescription: 'First bootcamp project, made in one week (the first week of the bootcamp)with HTML,CSS and Bootstrap.Great way of meeting all the classmates by starting working as a team right from the start.',
           collaborators: ['Mireia Gomariz', 'Ailina Ozola'],
@@ -216,7 +220,7 @@ export const StudentsList = [
         {
           projectName: 'Animate',
           projectGithub: 'https://github.com/masko-vl/animate',
-          projectImage: PlayWith,
+          projectImage: Animate,
           projectLink: 'link to project2',
           projectDescription: 'Second Bootcamp project, made in 4 weeks. We leaned and practice in the same time Rect, using an external API and npm packages',
           collaborators: ['Vlada Masko', 'Julie Brosse'],
@@ -225,10 +229,10 @@ export const StudentsList = [
         {
           projectName: 'La Pegatina',
           projectGithub: 'https://github.com/rutabello/LaPegatina',
-          projectImage: PlayWith,
+          projectImage: Pegatina,
           projectLink: 'link to project2',
           projectDescription: 'The real client Project. Using and learning backend too ',
-          collaborators: ['Rut Abelló', 'Lena Kujath'],
+          collaborators: ['Ruth Abelló', 'Lena Kujath'],
           technologies: ['react', 'youtube'],
         },
       ],
@@ -259,7 +263,7 @@ export const StudentsList = [
         {
           projectName: 'StreetsOfGracia',
           projectGithub: 'https://github.com/mireiaGomariz/project1',
-          projectImage: PlayWith,
+          projectImage: Gracia,
           projectLink: 'link to project1',
           projectDescription: 'First bootcamp project, made in one week (the first week of the bootcamp)with HTML,CSS and Bootstrap.Great way of meeting all the classmates by starting working as a team right from the start.',
           collaborators: ['Mireia Gomariz', 'Ailina Ozola'],
@@ -268,7 +272,7 @@ export const StudentsList = [
         {
           projectName: 'Animate',
           projectGithub: 'https://github.com/masko-vl/animate',
-          projectImage: PlayWith,
+          projectImage: Animate,
           projectLink: 'link to project2',
           projectDescription: 'Second Bootcamp project, made in 4 weeks. We leaned and practice in the same time Rect, using an external API and npm packages',
           collaborators: ['Vlada Masko', 'Julie Brosse'],
@@ -277,10 +281,10 @@ export const StudentsList = [
         {
           projectName: 'La Pegatina',
           projectGithub: 'https://github.com/rutabello/LaPegatina',
-          projectImage: PlayWith,
+          projectImage: Pegatina,
           projectLink: 'link to project2',
           projectDescription: 'The real client Project. Using and learning backend too ',
-          collaborators: ['Rut Abelló', 'Lena Kujath'],
+          collaborators: ['Ruth Abelló', 'Lena Kujath'],
           technologies: ['react', 'youtube'],
         },
       ],
@@ -312,7 +316,7 @@ export const StudentsList = [
       personalProjects: [
         {
           projectName: 'ANÍMATE',
-          projectImage: PlayWith,
+          projectImage: Animate,
           projectGithub: 'https://github.com/masko-vl/animategithub of project1',
           projectLink: 'https://animate.cat/',
           projectDescription: 'description about project1',
@@ -321,7 +325,7 @@ export const StudentsList = [
         },
         {
           projectName: 'La Vanguardia Game Section',
-          projectImage: PlayWith,
+          projectImage: Vanguardia,
           projectGithub: 'https://github.com/LaVanguardia/LaVanguardia',
           projectLink: 'https://zen-shaw-4b92a9.netlify.app/',
           projectDescription: 'description about project2',
@@ -355,7 +359,7 @@ export const StudentsList = [
       personalProjects: [
         {
           projectName: 'ANÍMATE',
-          projectImage: PlayWith,
+          projectImage: Animate,
           projectGithub: 'https://github.com/masko-vl/animategithub of project1',
           projectLink: 'https://animate.cat/',
           projectDescription: 'description about project1',
@@ -364,7 +368,7 @@ export const StudentsList = [
         },
         {
           projectName: 'La Vanguardia Game Section',
-          projectImage: PlayWith,
+          projectImage: Vanguardia,
           projectGithub: 'https://github.com/LaVanguardia/LaVanguardia',
           projectLink: 'https://zen-shaw-4b92a9.netlify.app/',
           projectDescription: 'description about project2',
@@ -400,7 +404,7 @@ export const StudentsList = [
       personalProjects: [
         {
           projectName: 'La Vanguardia game section',
-          projectImage: PlayWith,
+          projectImage: Vanguardia,
           projectGithub: 'https://github.com/LaVanguardia/LaVanguardia',
           projectLink: 'https://zen-shaw-4b92a9.netlify.app/',
           projectDescription: 'We are creating a Game section for La Vanguardia newspaper, one of the most important in the country',
@@ -409,7 +413,7 @@ export const StudentsList = [
         },
         {
           projectName: 'ShowMeWhatYouGot',
-          projectImage: PlayWith,
+          projectImage: RickAndMorty,
           projectGithub: 'https://github.com/mireiaGomariz/rick-morty',
           projectLink: 'link to project2',
           projectDescription: 'Game web page about Rick and Morty show',
@@ -443,7 +447,7 @@ export const StudentsList = [
       personalProjects: [
         {
           projectName: 'La Vanguardia game section',
-          projectImage: PlayWith,
+          projectImage: Vanguardia,
           projectGithub: 'https://github.com/LaVanguardia/LaVanguardia',
           projectLink: 'https://zen-shaw-4b92a9.netlify.app/',
           projectDescription: 'We are creating a Game section for La Vanguardia newspaper, one of the most important in the country',
@@ -452,7 +456,7 @@ export const StudentsList = [
         },
         {
           projectName: 'ShowMeWhatYouGot',
-          projectImage: PlayWith,
+          projectImage: RickAndMorty,
           projectGithub: 'https://github.com/mireiaGomariz/rick-morty',
           projectLink: 'link to project2',
           projectDescription: 'Game web page about Rick and Morty show',
@@ -465,6 +469,96 @@ export const StudentsList = [
       twitter: 'https://twitter.com/GomarizMireia',
       video: 'video url',
       calendly: 'https://calendly.com/mireiapgomariz',
+    },
+  },
+  {
+    english: {
+      name: 'Ruth Abelló',
+      email: 'rut.abello@gmail.com',
+      from: 'Reus',
+      livingIn: 'Gelida',
+      dateOfBirth: '14/09/1987',
+      profilePicture: TestPicture,
+      linkedin: 'https://www.linkedin.com/in/ruth-abello-cort/',
+      languages: ['catalan', 'spanish', 'english'],
+      technologies: ['react', 'node', 'javascript'],
+      shortDescription: 'Former journalist converted into a passionate front-end developer',
+      longDescription: [
+        'People keep asking me how come a journalist is now a web developer.',
+        'My answer is always the same: "The true question here should be \'How come a web developer used to be a journalist?\'".',
+        'Because, considering my background, my passion for everything related to science and tech, what\'s not clear at all is how I ended up in journalism school.It took me 8 years getting back again to the right path(not that journalism wasn\'t right, I also had a lot of fun and learned a lot there, but, you know...), but here I am.',
+        'I\'ve cried, dealt with frustration, learned so much in such a short time, proved myself wrong, failed, and, finally, succeeded.What I like the most, the infinite amount of opportunities to keep learning and never stop doing it, because technology is in constant change, and so am I.',
+      ],
+      github: 'https://github.com/rutabello/',
+      personalProjects: [
+        {
+          projectName: 'Play With',
+          projectImage: PlayWith,
+          projectGithub: 'https://github.com/rutabello/PlayWith',
+          projectLink: 'https://playwith.es/',
+          projectDescription: 'Play With lets you learn new worldwide music while playing with it',
+          collaborators: ['Ailina Ozola', 'Lena Kujath'],
+          technologies: ['react'],
+        },
+        {
+          projectName: 'Play With La Pegatina',
+          projectImage: Pegatina,
+          projectGithub: 'https://github.com/rutabello/LaPegatina',
+          projectLink: '',
+          projectDescription: 'Prove no-one knows more than you do about La Pegatina by playing with their music, videos and pictures. Make points and exchange them for concert tickets, trips, music and meet&greets',
+          collaborators: ['Lena Kujath', 'Alexandrina Serediuc'],
+          technologies: ['react'],
+        },
+      ],
+      facebook: '',
+      instagram: '',
+      twitter: '',
+      video: 'https://www.youtube.com/watch?v=NVJaLczVaS8',
+      calendly: 'https://calendly.com/ruthere',
+    },
+    spanish: {
+      name: 'Ruth Abelló',
+      email: 'rut.abello@gmail.com',
+      from: 'Reus',
+      livingIn: 'Gelida',
+      dateOfBirth: '14/09/1987',
+      profilePicture: TestPicture,
+      linkedin: 'https://www.linkedin.com/in/ruth-abello-cort-/',
+      languages: ['catalan', 'spanish', 'english'],
+      technologies: ['react', 'node', 'javascript'],
+      shortDescription: 'Periodista reconvertida en apasionada por la programación font-end',
+      longDescription: [
+        'La gente que me conoce no para de preguntarme qué hacía una periodista estudiando para ser programadora.',
+        'Mi respuesta es siempre la misma: "La pregunta, realmente, debería ser \'Qué hacía una programadora trabajando de periodista\'".',
+        'Y es que, tomando en consideración mi experiencia, mi pasión desde siempre por los números y todo lo relacionado con la ciencia y le tecnología, lo que no está nada claro es cómo acabé en la facultad de periodismo. Me llevó 8 años de ejercicio del periodismo darme cuenta que ese no era mi camino (no es que no fuera un buen camino, lo pasé muy bien y aprendí mucho, pero...) y encontrar el camino que sí era correcto para mí, pero aquí estoy.',
+        'He llorado, me ha tocado lidiar con la frustración, he aprendido mucho en muy poco tiempo, me he equivocado y he aprendido de cada error. Lo que más me gusta de todo este cambio: las oportunidades infinitas que ofrece de seguir aprendiendo y nunca dejar de hacerlo, porque la tecnología está en constante cambio. Igual que yo.',
+      ],
+      github: 'https://github.com/rutabello/',
+      personalProjects: [
+        {
+          projectName: 'Play With',
+          projectImage: PlayWith,
+          projectGithub: 'https://github.com/rutabello/PlayWith',
+          projectLink: 'https://playwith.es/',
+          projectDescription: 'Play With es una herramienta que te permite descubrir nueva música de todo el mundo a medida que juegas con ella.',
+          collaborators: ['Ailina Ozola', 'Lena Kujath'],
+          technologies: ['react'],
+        },
+        {
+          projectName: 'Juega con La Pegatina',
+          projectGithub: 'https://github.com/rutabello/LaPegatina',
+          projectImage: Pegatina,
+          projectLink: '',
+          projectDescription: 'Demuestra que eres quien más sabe sobre La Pegatina mientras juegas con su música, sus fotos y sus vídeos. Gana puntos y cámbialos por entradas a conciertos, meet&greets, música y viajes!',
+          collaborators: ['Lena Kujath', 'Alexandrina Serediuc'],
+          technologies: ['react'],
+        },
+      ],
+      facebook: '',
+      instagram: '',
+      twitter: '',
+      video: 'https://www.youtube.com/watch?v=NVJaLczVaS8&',
+      calendly: 'https://calendly.com/ruthere',
     },
   },
 ];

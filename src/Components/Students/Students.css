@@ -1,10 +1,21 @@
-.profile-info-container{
-  background-color: #F76C6C;
+.profile-header{
+  background-image: url("/studentBG.jpg");
+  background-position: center; /* Center the image */
   width: 100%;
-  height: 23vh;
+  height: 40vh;
+  display: flex;
+  -webkit-box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.75);
+}
+
+.profile-info-container{
+  background-color: rgba(45, 45, 45, 0.5);
+  width: 100%;
+  height: 200px;
+  align-self: flex-end;
   display: flex;
   justify-content: center;
-  box-shadow: 0px 0px 10px 10px #F76C6C;
 }
 
 .profile-info{
@@ -165,7 +176,6 @@
     background-color: white;
     height: auto;
     display: block;
-    box-shadow: none;
   }
   .profile-info{
     width: 100%;
