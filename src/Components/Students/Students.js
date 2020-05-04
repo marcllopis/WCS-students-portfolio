@@ -21,7 +21,8 @@ const Students = () => {
   // get the name (if any) of the student in the current url
   const studentNameInUrl = window.location.href
     .replace(new RegExp('.*' + 'students/'), '')
-    .replace(/%20/g, ' ');
+    .replace(/%20/g, ' ')
+    .replace(/%C3%B3/g, 'ó'); // special case for 'Abelló' surname
   // either saves the student coming from the home page, or fins the one through the url
   const myStudent = state.currentStudent || state.students
     .filter((student) => student[state.language].name === studentNameInUrl)[0];
