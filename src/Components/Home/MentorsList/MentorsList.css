@@ -1,4 +1,4 @@
-.main-page-main-students-container{
+.main-page-main-mentor-container{
   display: flex;
   align-content: center;
   justify-content: center;
@@ -8,26 +8,25 @@
   margin-left: 20px;
 }
 
-.list-of-students-container{
+.list-of-mentor-container{
   width: 70%;
 }
 .separator{
   display: none;
 }
-.card-students:nth-child(even) .img-student {order:1}
-.card-students:nth-child(even) .student-quote {
+.card-mentor:nth-child(even) .img-mentor {order:1}
+.card-mentor:nth-child(even) .mentor-quote {
   order:2;
   text-align: left;
 }
 
-.card-students:nth-child(odd) .img-student {order:2}
-.card-students:nth-child(odd) .img-card {transform: rotate(5deg)}
-.card-students:nth-child(odd) .student-quote {
+.card-mentor:nth-child(odd) .img-mentor {order:2}
+.card-mentor:nth-child(odd) .mentor-quote {
   order:1;
   text-align: right;
 }
 
-.card-students {
+.card-mentor {
   display: flex;
   align-content: center;
   justify-content: center;
@@ -35,30 +34,34 @@
   margin-top: 40px;
 }
 
-.img-student{
+.img-mentor{
   order: 1;
   width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.student-quote{
+.mentor-quote{
   order: 2;
   padding-left: 20px;
   padding-right: 20px;
   width: 80%;
 }
 
-.student-list-from {
+.mentor-list-from {
   font-weight: 200;
   font-style: italic;
   font-size: 0.7em;
   color: black;
 }
 
-.img-card {
-  transform: rotate(-5deg);
+.img-card-mentor {
   margin-bottom: 10px;
   border-radius: 20px;
   width: 100%;
+  height: 100%;
   box-shadow: 0 0 28px 28px white inset;
 }
 
@@ -92,8 +95,8 @@ and it is floated, it will "overflow" outside of its container: */
   display: flex;
 }
 
-.name-in-description{
-  width: 70%;
+.mentor-name{
+  width: 100%;
 }
 
 .button-in-description{
@@ -103,12 +106,12 @@ and it is floated, it will "overflow" outside of its container: */
   margin-top: 1%;
 }
 
-.card-students:nth-child(odd) .name-in-description {order:1}
-.card-students:nth-child(even) .button-in-description {
+.card-mentor:nth-child(odd) .mentor-name {order:1}
+.card-mentor:nth-child(even) .button-in-description {
   order:1;
 }
 
-.btn-student{
+.btn-mentor{
   background-color:  rgb(247,108,108);
   color: white;
   font-size: 1.5em;
@@ -118,7 +121,7 @@ and it is floated, it will "overflow" outside of its container: */
 }
 
 @media (max-width: 600px) {
-  .list-of-students-container{
+  .list-of-mentor-container{
     width: 90%;
   }
   .separator{
@@ -126,47 +129,45 @@ and it is floated, it will "overflow" outside of its container: */
     width: 100%;
     margin-bottom: 50px;
   }
-  .card-students {
+  .card-mentor {
     flex-direction: column;
   }
-  .card-students:nth-child(even) .img-student {order:1}
-  .card-students:nth-child(even) .student-quote {
+  .card-mentor:nth-child(even) .img-mentor {order:1}
+  .card-mentor:nth-child(even) .mentor-quote {
     order:2;
     text-align: left;
   }
 
-  .card-students:nth-child(even) .name-in-description {order:1}
-  .card-students:nth-child(even) .button-in-description {
+  .card-mentor:nth-child(even) .mentor-name {order:1}
+  .card-mentor:nth-child(even) .button-in-description {
   order:2;
   }
-  .card-students:nth-child(odd) .name-in-description {order:1}
-  .card-students:nth-child(odd) .button-in-description {
+  .card-mentor:nth-child(odd) .mentor-name {order:1}
+  .card-mentor:nth-child(odd) .button-in-description {
   order:2;
   }
 
-  .card-students:nth-child(odd) .img-student {order:1}
-  .card-students:nth-child(odd) .img-card {transform: rotate(0deg)}
-  .card-students:nth-child(odd) .student-quote {
+  .card-mentor:nth-child(odd) .img-mentor {order:1}
+  .card-mentor:nth-child(odd) .mentor-quote {
     order:1;
     text-align: left;
   }
 
-  .student-quote{
+  .mentor-quote{
     padding-left: 0px;
     padding-right: 0px;
     width: 100%;
   }
 
-  .img-student{
+  .img-mentor{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
 
-  .img-card{
+  .img-card-mentor{
     width: 50%;
-    transform: rotate(0deg);
   }
 
   .h3-card-title{
@@ -176,14 +177,10 @@ and it is floated, it will "overflow" outside of its container: */
     width: 40%;
     display: flex;
   }
-  .btn-student{
+  .btn-mentor{
     float: right;
-    padding: 0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
   }
-  .student-list-from{
+  .mentor-list-from{
     display: block;
   }
 }

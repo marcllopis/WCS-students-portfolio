@@ -14,6 +14,7 @@ import Calendly from '../../Utils/img/calendly.png';
 import Gmail from '../../Utils/img/gmail.png';
 import Instagram from '../../Utils/img/instagram.png';
 import Twitter from '../../Utils/img/twitter.png';
+import YTNotReady from '../../Utils/img/yt.png';
 
 
 const Students = () => {
@@ -71,32 +72,32 @@ const Students = () => {
                   {
                     myStudent[state.language].instagram !== '' &&
                     <span className="tech-right">
-                      <a href={myStudent[state.language].instagram}><img className="tech-image" src={Instagram} alt="instagram logo" /></a>
+                      <a target="_blank" href={myStudent[state.language].instagram}><img className="tech-image" src={Instagram} alt="instagram logo" /></a>
                     </span>
                   }
                   {
                     myStudent[state.language].twitter !== '' &&
                     <span className="tech-right">
-                      <a href={myStudent[state.language].twitter}><img className="tech-image" src={Twitter} alt="twitter logo" /></a>
+                      <a target="_blank" href={myStudent[state.language].twitter}><img className="tech-image" src={Twitter} alt="twitter logo" /></a>
                     </span>
                   }
                   {
                     myStudent[state.language].facebook !== '' &&
                     <span className="tech-right">
-                      <a href={myStudent[state.language].facebook}><img className="tech-image" src={Facebook} alt="facebook logo" /></a>
+                      <a target="_blank" href={myStudent[state.language].facebook}><img className="tech-image" src={Facebook} alt="facebook logo" /></a>
                     </span>
                   }
                   <span className="tech-right">
-                    <a href={myStudent[state.language].calendly}><img className="tech-image" src={Calendly} alt="calendly logo" /></a>
+                    <a target="_blank" href={myStudent[state.language].calendly}><img className="tech-image" src={Calendly} alt="calendly logo" /></a>
                   </span>
                   <span className="tech-right">
-                    <a href={myStudent[state.language].github}><img className="tech-image" src={Github} alt="github logo" /></a>
+                    <a target="_blank" href={myStudent[state.language].github}><img className="tech-image" src={Github} alt="github logo" /></a>
                   </span>
                   <span className="tech-right">
-                    <a href={myStudent[state.language].linkedin}><img className="tech-image" src={Linkedin} alt="linkedin logo" /></a>
+                    <a target="_blank" href={myStudent[state.language].linkedin}><img className="tech-image" src={Linkedin} alt="linkedin logo" /></a>
                   </span>
                   <span className="tech-right">
-                    <a href={myStudent[state.language].email}><img title="gmail" className="tech-image" src={Gmail} alt="gmail logo" /></a>
+                    <a href={`mailto: ${myStudent[state.language].email}`}><img title="gmail" className="tech-image" src={Gmail} alt="gmail logo" /></a>
                   </span>
                 </h2>
                 <hr className="separator-student" />
@@ -113,14 +114,19 @@ const Students = () => {
               <div className="watch-me">
                 <h2 className="header-title">{state.texts[state.language].profile.watchMe}</h2>
                 <hr className="separator-student" />
-                <iframe
-                  className="yt-iframe"
-                  title="video"
-                  id="ytplayer"
-                  type="text/html"
-                  src="https://www.youtube.com/embed/4XAC1yuGLi4?autoplay=0"
-                  frameBorder="0"
-                />
+                {myStudent[state.language].video
+                  ? <iframe
+                    className="yt-iframe"
+                    title="video"
+                    id="ytplayer"
+                    type="text/html"
+                    src={`https://www.youtube.com/embed/${myStudent[state.language].video}?autoplay=0`}
+                    frameBorder="0"
+                  />
+                  : <div>
+                    <img alt="video not ready" src={YTNotReady} />
+                    <p>{state.texts[state.language].profile.ytNotReady}</p>
+                  </div>}
               </div>
             </div>
             <div className="right-student-container">

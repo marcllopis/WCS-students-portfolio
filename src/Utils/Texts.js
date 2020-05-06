@@ -8,6 +8,7 @@ export const Texts = {
         'Jowl leberkas fatback biltong tongue turducken pig ground round. Prosciutto meatloaf ham hock pork cow. Short loin porchetta fatback cow. Frankfurter hamburger landjaeger andouille, pastrami tri-tip ball tip beef ribs short loin kevin rump brisket pork belly pork loin. T-bone pancetta flank, tenderloin beef ribs ham sirloin chuck pork loin beef turkey.',
       ],
       developerTitle: 'Los programadores',
+      mentorTitle: 'Los mentores',
       from: 'de ',
       seeMore: 'Ver más',
     },
@@ -21,6 +22,7 @@ export const Texts = {
       checkIt: 'Míralo online ',
       here: 'aquí',
       developedWith: 'Programado con: ',
+      ytNotReady: 'El vídeo no está disponible aún',
     },
   },
   english: {
@@ -32,6 +34,7 @@ export const Texts = {
         'Jowl leberkas fatback biltong tongue turducken pig ground round. Prosciutto meatloaf ham hock pork cow. Short loin porchetta fatback cow. Frankfurter hamburger landjaeger andouille, pastrami tri-tip ball tip beef ribs short loin kevin rump brisket pork belly pork loin. T-bone pancetta flank, tenderloin beef ribs ham sirloin chuck pork loin beef turkey.',
       ],
       developerTitle: 'The developers',
+      mentorTitle: 'The mentors',
       from: 'from ',
       seeMore: 'See more',
     },
@@ -45,6 +48,7 @@ export const Texts = {
       checkIt: 'Check it online ',
       here: 'here',
       developedWith: 'Developed with: ',
+      ytNotReady: 'Video not ready yet',
     },
   },
 };
