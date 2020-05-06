@@ -18,7 +18,7 @@ const StudentList = () => {
           {
             state.students.map((student) => (
               <Fade key={shortId.generate()} bot>
-                <div key={shortId.generate()} className="card-students">
+                <div className="card-students">
                   <div className="img-student">
                     <img
                       className="img-card"

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { StudentsList } from '../Utils/StudentsList';
+import { MentorsList } from '../Utils/MentorsList';
 import { Texts } from '../Utils/Texts';
 
 
@@ -8,6 +9,7 @@ export const Context = React.createContext();
 const AppContext = (props) => {
   const [state, changeState] = useState({
     students: StudentsList,
+    mentors: MentorsList,
     texts: Texts,
     language: 'english', // default language
     currentStudent: '',
