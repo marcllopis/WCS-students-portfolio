@@ -1,0 +1,61 @@
+
+export const StudentName =
+{
+  english: {
+    name: 'Your name',
+    email: 'Your email',
+    from: 'Country',
+    livingIn: 'Current country',
+    dateOfBirth: 'date',
+    linkedin: 'Linkedin url',
+    languages: ['language1', 'language2', 'language3'],
+    shortDescription: 'short description',
+    longDescription: 'long description',
+    github: 'github url',
+    technologies: ['tech1', 'tech2', 'tech3', 'tech4'],
+    personalProjects: [
+      {
+        projectName: 'Project1 name',
+        projectGithub: 'Project1 github',
+        projectLink: 'Project1 link',
+        projectDescription: 'Project1 description',
+        collaborators: ['collab1', 'collab2', 'collab3'],
+        technologies: ['tech1', 'tech2', 'tech3'],
+      },
+    ],
+    facebook: 'facebook url if you want to share it',
+    instagram: 'instagram url if you want to share it',
+    twitter: 'twitter url if you want to share it',
+    video: 'youtube url',
+    calendly: 'calendly link',
+  },
+  spanish: {
+    name: '',
+    email: '',
+    from: '',
+    livingIn: '',
+    dateOfBirth: '',
+    linkedin: '',
+    languages: ['', '', ''],
+    shortDescription: '',
+    longDescription: '',
+    github: '',
+    technologies: ['', '', ''],
+    personalProjects: [
+      {
+        projectName: '',
+        projectGithub: '',
+        projectLink: '',
+        projectDescription: '',
+        collaborators: ['', '', ''],
+        technologies: ['', '', ''],
+      },
+
+    ],
+    facebook: '',
+    instagram: '',
+    twitter: '',
+    video: '',
+    calendly: '',
+  },
+};

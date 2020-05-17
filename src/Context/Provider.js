@@ -5,10 +5,28 @@ import { MentorsList } from '../Utils/MentorsList';
 import { Texts } from '../Utils/Texts';
 
 
+const shuffleArray = (a) => {
+  let j; let x; let i;
+  // eslint-disable-next-line no-plusplus
+  for (i = a.length - 1; i > 0; i--) {
+    j = Math.floor(Math.random() * (i + 1));
+    x = a[i];
+    // eslint-disable-next-line no-param-reassign
+    a[i] = a[j];
+    // eslint-disable-next-line no-param-reassign
+    a[j] = x;
+  }
+  return a;
+};
+
+
 export const Context = React.createContext();
+
+const arrayOfStudents = shuffleArray(StudentsList);
+
 const AppContext = (props) => {
   const [state, changeState] = useState({
-    students: StudentsList,
+    students: arrayOfStudents,
     mentors: MentorsList,
     texts: Texts,
     language: 'english', // default language

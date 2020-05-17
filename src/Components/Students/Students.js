@@ -24,7 +24,7 @@ const Students = () => {
     .replace(new RegExp('.*' + 'students/'), '')
     .replace(/%20/g, ' ')
     .replace(/%C3%B3/g, 'ó'); // special case for 'Abelló' surname
-  // either saves the student coming from the home page, or fins the one through the url
+  // either saves the student coming from the home page, or find the one through the url
   const myStudent = state.currentStudent || state.students
     .filter((student) => student[state.language].name === studentNameInUrl)[0];
 
@@ -72,29 +72,29 @@ const Students = () => {
                   {
                     myStudent[state.language].instagram !== '' &&
                     <span className="tech-right">
-                      <a target="_blank" href={myStudent[state.language].instagram}><img className="tech-image" src={Instagram} alt="instagram logo" /></a>
+                      <a target="_blank" rel="noopener noreferrer" href={myStudent[state.language].instagram}><img className="tech-image" src={Instagram} alt="instagram logo" /></a>
                     </span>
                   }
                   {
                     myStudent[state.language].twitter !== '' &&
                     <span className="tech-right">
-                      <a target="_blank" href={myStudent[state.language].twitter}><img className="tech-image" src={Twitter} alt="twitter logo" /></a>
+                      <a target="_blank" rel="noopener noreferrer" href={myStudent[state.language].twitter}><img className="tech-image" src={Twitter} alt="twitter logo" /></a>
                     </span>
                   }
                   {
                     myStudent[state.language].facebook !== '' &&
                     <span className="tech-right">
-                      <a target="_blank" href={myStudent[state.language].facebook}><img className="tech-image" src={Facebook} alt="facebook logo" /></a>
+                      <a target="_blank" rel="noopener noreferrer" href={myStudent[state.language].facebook}><img className="tech-image" src={Facebook} alt="facebook logo" /></a>
                     </span>
                   }
                   <span className="tech-right">
-                    <a target="_blank" href={myStudent[state.language].calendly}><img className="tech-image" src={Calendly} alt="calendly logo" /></a>
+                    <a target="_blank" rel="noopener noreferrer" href={myStudent[state.language].calendly}><img className="tech-image" src={Calendly} alt="calendly logo" /></a>
                   </span>
                   <span className="tech-right">
-                    <a target="_blank" href={myStudent[state.language].github}><img className="tech-image" src={Github} alt="github logo" /></a>
+                    <a target="_blank" rel="noopener noreferrer" href={myStudent[state.language].github}><img className="tech-image" src={Github} alt="github logo" /></a>
                   </span>
                   <span className="tech-right">
-                    <a target="_blank" href={myStudent[state.language].linkedin}><img className="tech-image" src={Linkedin} alt="linkedin logo" /></a>
+                    <a target="_blank" rel="noopener noreferrer" href={myStudent[state.language].linkedin}><img className="tech-image" src={Linkedin} alt="linkedin logo" /></a>
                   </span>
                   <span className="tech-right">
                     <a href={`mailto: ${myStudent[state.language].email}`}><img title="gmail" className="tech-image" src={Gmail} alt="gmail logo" /></a>
@@ -144,16 +144,22 @@ const Students = () => {
                       </span>
                     </p>
                     <img className="project-image" src={project.projectImage} alt={project.projectName} />
-                    <p>{project.projectDescription}. {state.texts[state.language].profile.checkIt}<a href={project.projectLink}>{state.texts[state.language].profile.here}</a></p>
-                    <p>{state.texts[state.language].profile.developedWith} {project.collaborators.map((collaborator) => (
-                      <span className="project-collaborators" key={shortId.generate()}>
-                        {
-                          checkIfStudent(collaborator).length > 0
-                            ? <span><span role="img" aria-label="emoji"> 👤</span><Link style={{ textDecoration: 'none' }} target="_blank" to={`/students/${collaborator}`}><span className="collaborator-link">{collaborator} </span></Link></span>
-                            : <span className="collaborator-no-link">{collaborator} </span>
-                        }
-                      </span>
-                    ))}
+                    <p>{project.projectDescription}.
+                      {state.texts[state.language].profile.checkIt}
+                      <a href={project.projectLink}>
+                        {state.texts[state.language].profile.here}
+                      </a>
+                    </p>
+                    <p>{state.texts[state.language].profile.developedWith}
+                      {project.collaborators.map((collaborator) => (
+                        <span className="project-collaborators" key={shortId.generate()}>
+                          {
+                            checkIfStudent(collaborator).length > 0
+                              ? <span><span role="img" aria-label="emoji"> 👤</span><Link style={{ textDecoration: 'none' }} target="_blank" to={`/students/${collaborator}`}><span className="collaborator-link">{collaborator} </span></Link></span>
+                              : <span className="collaborator-no-link">{collaborator} </span>
+                          }
+                        </span>
+                      ))}
                       <span className="tech-right">
                         <a href={project.projectGithub}><img className="tech-image" src={Github} alt="github logo" /></a>
                       </span>
