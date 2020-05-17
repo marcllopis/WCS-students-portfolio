@@ -1,0 +1,98 @@
+import PlayWith from '../img/projects/playwithBG.jpg';
+import Vanguardia from '../img/projects/vanguardiaBG.jpg';
+import ProfilePicture from '../img/profiles/ailin.jpeg';
+
+
+export const Ailin =
+{
+  english: {
+    name: 'Ailina Ozola',
+    email: 'ailuozols@gmail.com',
+    from: 'Argentina',
+    livingIn: 'Barcelona',
+    dateOfBirth: '11/02/1998',
+    linkedin: 'https://www.linkedin.com/in/ailinaozola/',
+    profilePicture: ProfilePicture,
+    languages: ['spanish', 'english', 'portuguese'],
+    shortDescription: 'The youngest of the group with 22 years of life and the rest to code',
+    longDescription: [
+      'I used to cook for money but now i would code for food!',
+      'In the past working at the kitchen and in customer service teached me how to be a team player, about perseverance, working under pressure and to adapt myself to different scenarios.',
+      'During this long learning journey I discovered that I like both the backend and the frontend (not because the bootcamp title is fullstack developer!: P).',
+      'I enjoy combining the logical part and the creative part (for which I feel that having studied art developed some knowledge about the display, the design that is carried out on the elements to improve the user experience so the product is more effective).',
+      'Now for the first time i have the opportunity to work in something that I am passionate about, it makes me grow as a person, which constantly involves interesting challenges.',
+    ],
+    github: 'https://github.com/AlundraOz',
+    technologies: ['react', 'node', 'git', 'mysql', 'javascript', 'bootstrap'],
+    personalProjects: [
+      {
+        projectName: 'LaVanguardia\'s game section',
+        projectImage: Vanguardia,
+        projectGithub: 'https://github.com/LaVanguardia',
+        projectLink: 'link to project1',
+        projectDescription: 'Creation of a new and innovative game section for newspaper\'s users and personalizing it and integrating it into their digital plataform in order to create more engagement.',
+        collaborators: ['Vlada Masko', 'Mireia Gomariz', 'Julie Brosse'],
+        technologies: ['react', 'javascript', 'bootstrap'],
+      },
+      {
+        projectName: 'PlayWith',
+        projectImage: PlayWith,
+        projectGithub: 'https://github.com/rutabello/PlayWith',
+        projectLink: 'https://playwith.es/',
+        projectDescription: 'PlayWith it\'s a fun way to discover new music from all around the world while playing a quizz game',
+        collaborators: ['Ruth Abelló', 'Lena Kujath'],
+        technologies: ['react'],
+      },
+    ],
+    facebook: '',
+    instagram: '',
+    twitter: '',
+    video: '',
+    calendly: 'https://calendly.com/ailuozols/30min?month=2020-04',
+  },
+  spanish: {
+    name: 'Ailina Ozola',
+    email: 'ailuozols@gmail.com',
+    from: 'Argentina',
+    livingIn: 'Barcelona',
+    dateOfBirth: '11/02/1998',
+    linkedin: 'https://www.linkedin.com/in/ailinaozola/',
+    profilePicture: 'https://media-exp1.licdn.com/dms/image/C4D03AQERh7BUkEyEsQ/profile-displayphoto-shrink_800_800/0?e=1594252800&v=beta&t=DaPUHf9DqatscI15-48pfg1-zl17m4TdNhuPnpTFoKU',
+    languages: ['spanish', 'english', 'portuguese'],
+    shortDescription: 'The youngest of the group with 22 years of life and the rest to code',
+    longDescription: [
+      'I used to cook for money but now i would code for food!',
+      'In the past working at the kitchen and in customer service teached me how to be a team player, about perseverance, working under pressure and to adapt myself to different scenarios.',
+      'During this long learning journey I discovered that I like both the backend and the frontend (not because the bootcamp title is fullstack developer!: P).',
+      'I enjoy combining the logical part and the creative part (for which I feel that having studied art developed some knowledge about the display, the design that is carried out on the elements to improve the user experience so the product is more effective).',
+      'Now for the first time i have the opportunity to work in something that I am passionate about, it makes me grow as a person, which constantly involves interesting challenges.',
+    ],
+    github: 'https://github.com/AlundraOz',
+    technologies: ['react', 'node', 'git', 'mysql', 'javascript', 'bootstrap'],
+    personalProjects: [
+      {
+        projectName: 'LaVanguardia\'s game section',
+        projectImage: Vanguardia,
+        projectGithub: 'https://github.com/LaVanguardia',
+        projectLink: 'link to project1',
+        projectDescription: 'Creation of a new and innovative game section for newspaper\'s users and personalizing it and integrating it into their digital plataform in order to create more engagement.',
+        collaborators: ['Vlada Masko', 'Mireia Gomariz', 'Julie Brosse'],
+        technologies: ['react', 'javascript', 'bootstrap'],
+      },
+      {
+        projectName: 'PlayWith',
+        projectImage: PlayWith,
+        projectGithub: 'https://github.com/rutabello/PlayWith',
+        projectLink: 'https://playwith.es/',
+        projectDescription: 'PlayWith it\'s a fun way to discover new music from all around the world while playing a quizz game',
+        collaborators: ['Ruth Abelló', 'Lena Kujath'],
+        technologies: ['react'],
+      },
+    ],
+    facebook: '',
+    instagram: '',
+    twitter: '',
+    video: '',
+    calendly: 'https://calendly.com/ailuozols/30min?month=2020-04',
+  },
+};
