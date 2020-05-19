@@ -75,6 +75,10 @@
   margin: 0;
 }
 
+.borderFlag {
+  border: 2px solid black;
+}
+
 @media (max-width: 600px) {
   .titleContainer {
     padding-right: 0px;

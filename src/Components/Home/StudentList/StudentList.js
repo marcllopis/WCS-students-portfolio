@@ -9,7 +9,6 @@ import { Context } from '../../../Context/Provider';
 
 const StudentList = () => {
   const { state, getCurrentStudent } = React.useContext(Context);
-
   return (
     <div>
       <h1 className="developers">{state.texts[state.language].header.developerTitle}</h1>
