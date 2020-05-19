@@ -12,6 +12,8 @@ import Youtube from './img/youtube.png';
 import PHP from './img/php.png';
 import Scrum from './img/scrum.png';
 import Jquery from './img/jquery.png';
+import Ruby from './img/ruby.png';
+import Rails from './img/rails.png';
 
 
 export const Technologies = {
@@ -29,4 +31,6 @@ export const Technologies = {
   scrum: Scrum,
   php: PHP,
   jquery: Jquery,
+  ruby: Ruby,
+  rails: Rails,
 };

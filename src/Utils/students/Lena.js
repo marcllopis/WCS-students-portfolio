@@ -2,6 +2,7 @@ import Montjuic from '../img/projects/montjuicBG.jpg';
 import PlayWith from '../img/projects/playwithBG.jpg';
 import Vanguardia from '../img/projects/vanguardiaBG.jpg';
 import Pegatina from '../img/projects/pegatinaBG.jpg';
+import HolaDulce from '../img/projects/holadulce.jpg';
 import ProfilePicture from '../img/profiles/lena.jpeg';
 
 
@@ -37,6 +38,15 @@ export const Lena =
         projectDescription: 'A project dedicated to increase fandom interaction for the band "La Pegatina" implementing gamification, social interaction and fun competition between users.',
         collaborators: ['Rut Abelló', 'Alexandrina Serediuc'],
         technologies: ['react', 'css'],
+      },
+      {
+        projectName: 'Hola Dulce (Hackaton)',
+        projectGithub: 'https://github.com/Hackaton-holadulce',
+        projectLink: '',
+        projectImage: HolaDulce,
+        projectDescription: 'The admin page for the spanish company "Hola Dulce", who asked for a solution regarding a simple and scalable stock flow. Built from scratch during a 48h Hackaton. ',
+        collaborators: ['Vlada Masko', 'Julie Brosse', 'Ruth Abelló', 'Lena Kujath', 'Mireia Gomariz', 'Ailina Ozola'],
+        technologies: ['React', 'node', 'MySQL'],
       },
       {
         projectName: 'Play With',
@@ -102,6 +112,15 @@ export const Lena =
         projectDescription: 'Un proyecto dedicado a aumentar la interacción fandom para la banda implementando gamificación, interacción social y competencia divertida entre los usarios.',
         collaborators: ['Rut Abelló', 'Alexandrina Serediuc'],
         technologies: ['react', 'css'],
+      },
+      {
+        projectName: 'Hola Dulce (Hackaton)',
+        projectGithub: 'https://github.com/Hackaton-holadulce',
+        projectLink: '',
+        projectImage: HolaDulce,
+        projectDescription: 'La página de administración de la empresa española "Hola Dulce", que pidió una solución con respecto a un stock flow simple y escalable. Construido desde cero durante un hackaton de 48h.',
+        collaborators: ['Vlada Masko', 'Julie Brosse', 'Ruth Abelló', 'Lena Kujath', 'Mireia Gomariz', 'Ailina Ozola'],
+        technologies: ['react', 'node', 'mysql'],
       },
       {
         projectName: 'Play With',

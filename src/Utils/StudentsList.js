@@ -1,5 +1,5 @@
 import { Ailin } from './students/Ailin';
-// import Julie from './students/Julie';
+import { Julie } from './students/Julie';
 import { Lena } from './students/Lena';
 import { Mireia } from './students/Mireia';
 import { Rut } from './students/Rut';
@@ -14,4 +14,5 @@ export const StudentsList = [
   Rut,
   Sandra,
   Vlada,
+  Julie,
 ];

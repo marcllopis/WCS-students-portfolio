@@ -7,7 +7,7 @@ import './header.css';
 
 
 const Header = () => {
-  const { changeLanguage } = React.useContext(Context);
+  const { state, changeLanguage } = React.useContext(Context);
 
   return (
     <div className="titleContainer">
@@ -15,8 +15,8 @@ const Header = () => {
         <Link style={{ textDecoration: 'none' }} to="/"><h3 className="campusName">Barcelona Campus</h3></Link>
       </div>
       <div className="countryContact">
-        <img onClick={() => changeLanguage('english')} alt="English" src={englishFlag} className="countryFlag" />
-        <img onClick={() => changeLanguage('spanish')} alt="Spain" src={spainFlag} className="countryFlag" />
+        <img onClick={() => changeLanguage('english')} alt="English" src={englishFlag} className={state.language === 'english' ? 'countryFlag borderFlag' : 'countryFlag'} />
+        <img onClick={() => changeLanguage('spanish')} alt="Spain" src={spainFlag} className={state.language === 'spanish' ? 'countryFlag borderFlag' : 'countryFlag'} />
       </div>
     </div>
   );
