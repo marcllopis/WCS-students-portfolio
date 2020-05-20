@@ -41,7 +41,7 @@ export const MentorsList = [
       shortDescription: [
         '"Hi there!',
         'I\'m Cali, the Campus Manager of Wild Code School here in Barcelona, and Mentor of these fantastic students. I\'m writing to tell you that if you came here looking to hire Junior Developers, I\'m sorry to disappoint you: You came to the wrong place.',
-        'Here you\'ll find more than Junior Developers. Here you\'ll find assets; people who\'ll add real value to your company. That impressed everybody they worked with (including big companies like La Vanguardia or Warner Music Spain) with their talent and their humbleness.',
+        'Here you\'ll find more than Junior Developers. Here you\'ll find assets; people who\'ll add real value to your company. That impressed everybody they worked  with their talent and their humbleness. (including big companies like La Vanguardia or Warner Music Spain)',
         'Girls who learned how to code, but already knew life values; Women who learned Agile Methods, but already knew how to work and earn salaries; Students that learned Soft-Skills in innovative ways, but already knew how to be great colleagues.',
         'Hey! The good news is that if you\'re looking to hire real talent, on this website you\'ll find 7 jewels that proved me, and everybody else, why I\'m going to miss them -and their coding- so much."',
       ],

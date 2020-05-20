@@ -29,7 +29,9 @@ const StudentList = () => {
                     <h2 className="short-description">&quot;{student[state.language].shortDescription}&quot;</h2>
                     <div className="name-and-from">
                       <div className="name-in-description">
-                        <h3 className="h3-card-title">{student[state.language].name} <span className="student-list-from">{state.texts[state.language].header.from}{student[state.language].from}</span></h3>
+                        <h3 className="h3-card-title">{student[state.language].name}
+                          <br />
+                          <span className="student-list-from">{state.texts[state.language].header.from}{student[state.language].from}</span></h3>
                       </div>
                       <div className="button-in-description">
                         <button
