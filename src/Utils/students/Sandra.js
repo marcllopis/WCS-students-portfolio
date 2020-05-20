@@ -2,6 +2,7 @@ import Vanguardia from '../img/projects/vanguardiaBG.jpg';
 import Gracia from '../img/projects/graciaBG.jpg';
 import Pegatina from '../img/projects/pegatinaBG.jpg';
 import Animate from '../img/projects/animateBG.jpg';
+import HolaDulce from '../img/projects/holadulce.jpg';
 import ProfilePicture from '../img/profiles/sandra.jpeg';
 
 
@@ -16,11 +17,12 @@ export const Sandra =
     linkedin: 'https://www.linkedin.com/in/alexandrina-serediuc-a33678195/',
     profilePicture: ProfilePicture,
     languages: ['romanian', 'russian', 'english', 'italian', 'spanish'],
-    shortDescription: 'I\'m a junior web develoer with a strong will to learn and grow',
+    shortDescription: 'Creative junior developer with a strong will to learn and grow',
     longDescription: [
-      'Bacon ipsum dolor amet short ribs bacon frankfurter, ball tip shankle tri-tip chicken jerky turkey pork belly. Leberkas filet mignon sirloin tenderloin pork loin boudin sausage shoulder. Brisket short loin t-bone prosciutto pork belly hamburger pork chop shank meatball beef ribs fatback cupim frankfurter tenderloin andouille. Filet mignon turkey kevin, kielbasa ball tip jerky picanha. Frankfurter turducken tongue filet mignon, alcatra pig short loin bacon.',
-      'Ball tip bresaola shoulder ham hock, cow burgdoggen shank ground round flank prosciutto. Swine turkey burgdoggen filet mignon biltong venison prosciutto kielbasa beef ribs spare ribs kevin. Drumstick kielbasa hamburger tongue ham hock t-bone. Landjaeger chicken hamburger chislic, swine prosciutto tail corned beef. Chuck frankfurter pork tail bresaola cupim.',
-      'Jowl leberkas fatback biltong tongue turducken pig ground round. Prosciutto meatloaf ham hock pork cow. Short loin porchetta fatback cow. Frankfurter hamburger landjaeger andouille, pastrami tri-tip ball tip beef ribs short loin kevin rump brisket pork belly pork loin. T-bone pancetta flank, tenderloin beef ribs ham sirloin chuck pork loin beef turkey.',
+      'The last 5 months was the best challenge so far.',
+      'Learning to code and apply it in the bootcamp projects. Besides the technical skills I\'ve learned how to deal with error/conflicts, accept critics and be a team player. I have a curious mind and a strong desire to grow, discover and solve new challenges.',
+      'I have my bachelor degree in Public Administration and worked the last 5 years in the film industry.',
+      'My previous experience allowed me to develop the ability to strategically plan, develop and implement projects towards the achievement of the team\'s objectives',
     ],
     github: 'https://github.com/Alecsundra',
     technologies: ['react', 'javascript', 'node', 'mysql', 'html', 'css', 'git', 'scrum'],
@@ -29,10 +31,19 @@ export const Sandra =
         projectName: 'La Pegatina',
         projectGithub: 'https://github.com/rutabello/LaPegatina',
         projectImage: Pegatina,
-        projectLink: 'link to project2',
+        projectLink: '#',
         projectDescription: 'The Real Client Project. Building an engagement platform for La Pegatina fans( music band of Catalan rumba) based on games ( play with music, videos and images). Using the connection with back-end(learning it in the same time), the user can register and keep the points.',
         collaborators: ['Ruth Abelló', 'Lena Kujath'],
         technologies: ['react', 'youtube', 'node', 'mysql'],
+      },
+      {
+        projectName: 'Hackathon-Hola Dulce',
+        projectGithub: 'https://github.com/Hackaton-holadulce/Front',
+        projectLink: '#',
+        projectImage: HolaDulce,
+        projectDescription: 'Two days remote hackathon, building an administartive page to manage the stock.',
+        collaborators: ['Vlada Masko', 'Julie Brosse', 'Ruth Abelló', 'Lena Kujath', 'Mireia Gomariz', 'Ailina Ozola'],
+        technologies: ['react', 'mysql', 'node'],
       },
       {
         projectName: 'Barcelona Hackathon',
@@ -65,7 +76,7 @@ export const Sandra =
     facebook: 'https://www.facebook.com/alecsandra.serediuc',
     instagram: 'https://www.instagram.com/alecsandra_serediuc/',
     twitter: '',
-    video: '',
+    video: 'CPWM-SE7dhs',
     calendly: 'https://calendly.com/alecsandra-serediuc',
   },
   spanish: {
@@ -77,11 +88,12 @@ export const Sandra =
     linkedin: 'https://www.linkedin.com/in/alexandrina-serediuc-a33678195/',
     profilePicture: ProfilePicture,
     languages: ['romanian', 'russian', 'english', 'italian', 'spanish'],
-    shortDescription: 'Soy un desarrollador web junior con una fuerte voluntad de aprender y crecer',
+    shortDescription: 'Desarrollador junior creativo con una fuerte voluntad de aprender y crecer',
     longDescription: [
-      'Bacon ipsum dolor amet short ribs bacon frankfurter, ball tip shankle tri-tip chicken jerky turkey pork belly. Leberkas filet mignon sirloin tenderloin pork loin boudin sausage shoulder. Brisket short loin t-bone prosciutto pork belly hamburger pork chop shank meatball beef ribs fatback cupim frankfurter tenderloin andouille. Filet mignon turkey kevin, kielbasa ball tip jerky picanha. Frankfurter turducken tongue filet mignon, alcatra pig short loin bacon.',
-      'Ball tip bresaola shoulder ham hock, cow burgdoggen shank ground round flank prosciutto. Swine turkey burgdoggen filet mignon biltong venison prosciutto kielbasa beef ribs spare ribs kevin. Drumstick kielbasa hamburger tongue ham hock t-bone. Landjaeger chicken hamburger chislic, swine prosciutto tail corned beef. Chuck frankfurter pork tail bresaola cupim.',
-      'Jowl leberkas fatback biltong tongue turducken pig ground round. Prosciutto meatloaf ham hock pork cow. Short loin porchetta fatback cow. Frankfurter hamburger landjaeger andouille, pastrami tri-tip ball tip beef ribs short loin kevin rump brisket pork belly pork loin. T-bone pancetta flank, tenderloin beef ribs ham sirloin chuck pork loin beef turkey.',
+      'Los últimos 5 meses fueron el mejor desafío hasta ahora.',
+      'Aprender a programar y aplicarlo en los proyectos de bootcamp. Además de las habilidades técnicas, he aprendido a lidiar con errores / conflictos, aceptar críticas y ser un jugador de equipo. Tengo una mente curiosa y un fuerte deseo de crecer, descubrir y resolver nuevos desafíos.',
+      'Tengo mi licenciatura en Administración Pública y trabajé los últimos 5 años en la industria del cine.',
+      'Mi experiencia previa me permitió desarrollar la capacidad de planificar, desarrollar e implementar proyectos estratégicamente para lograr los objetivos del equipo.',
     ],
     github: 'https://github.com/Alecsundra',
     technologies: ['react', 'javascript', 'node', 'mysql', 'html', 'css', 'git', 'scrum'],
@@ -94,6 +106,15 @@ export const Sandra =
         projectDescription: 'El proyecto del cliente real. Creación de una plataforma de compromiso para los fanáticos de La Pegatina (banda de música de rumba Catalana) basada en juegos (jugar con música, videos e imágenes). Usando la conexión con el back-end (aprendiéndolo al mismo tiempo), el usuario puede registrarse y conservar los puntos.',
         collaborators: ['Ruth Abelló', 'Lena Kujath'],
         technologies: ['react', 'youtube', 'node', 'mysql'],
+      },
+      {
+        projectName: 'Hackathon-Hola Dulce',
+        projectGithub: 'https://github.com/Hackaton-holadulce/Front',
+        projectLink: '#',
+        projectImage: HolaDulce,
+        projectDescription: 'Two days remote hackathon, building an administartive page to manage the stock.',
+        collaborators: ['Vlada Masko', 'Julie Brosse', 'Ruth Abelló', 'Lena Kujath', 'Mireia Gomariz', 'Ailina Ozola'],
+        technologies: ['react', 'mysql', 'node'],
       },
       {
         projectName: 'Barcelona Hackathon',
@@ -126,7 +147,7 @@ export const Sandra =
     facebook: 'https://www.facebook.com/alecsandra.serediuc',
     instagram: 'https://www.instagram.com/alecsandra_serediuc/',
     twitter: '',
-    video: '',
+    video: 'CPWM-SE7dhs',
     calendly: 'https://calendly.com/alecsandra-serediuc',
   },
 };

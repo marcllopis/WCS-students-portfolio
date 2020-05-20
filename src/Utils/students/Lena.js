@@ -46,7 +46,7 @@ export const Lena =
         projectImage: HolaDulce,
         projectDescription: 'The admin page for the spanish company "Hola Dulce", who asked for a solution regarding a simple and scalable stock flow. Built from scratch during a 48h Hackaton. ',
         collaborators: ['Vlada Masko', 'Julie Brosse', 'Ruth Abelló', 'Lena Kujath', 'Mireia Gomariz', 'Ailina Ozola'],
-        technologies: ['React', 'node', 'MySQL'],
+        technologies: ['react', 'node', 'mysql'],
       },
       {
         projectName: 'Play With',
