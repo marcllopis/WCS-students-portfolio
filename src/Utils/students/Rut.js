@@ -55,7 +55,7 @@ export const Rut =
     from: 'Reus',
     livingIn: 'Gelida',
     dateOfBirth: '14/09/1987',
-    profilePicture: 'https://media-exp1.licdn.com/dms/image/C5603AQFwB_i-xWlnFQ/profile-displayphoto-shrink_800_800/0?e=1594252800&v=beta&t=ege0l8lIegqKlBinMvMahsUeEqBTTL8tx3Hw079EBqQ',
+    profilePicture: ProfilePicture,
     linkedin: 'https://www.linkedin.com/in/ruth-abello-cort-/',
     languages: ['catalan', 'spanish', 'english'],
     technologies: ['react', 'node', 'javascript'],

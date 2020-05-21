@@ -12,7 +12,8 @@ const Header = () => {
   return (
     <div className="titleContainer">
       <div className="bootcampName">
-        <Link style={{ textDecoration: 'none' }} to="/"><h3 className="campusName">Barcelona Campus</h3></Link>
+        <Link style={{ textDecoration: 'none' }} to="/"><h3 className="campusName">Wild Code School Students</h3></Link>
+        <Link style={{ textDecoration: 'none' }} to="/"><h3 className="campusName-mvl">WCS Students</h3></Link>
       </div>
       <div className="countryContact">
         <img onClick={() => changeLanguage('english')} alt="English" src={englishFlag} className={state.language === 'english' ? 'countryFlag borderFlag' : 'countryFlag'} />

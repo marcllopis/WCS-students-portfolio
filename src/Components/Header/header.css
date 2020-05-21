@@ -23,6 +23,10 @@
   line-height: 2px;
 }
 
+.campusName-mvl {
+  display: none;
+}
+
 
 .countryContact {
   line-height: 60px;
@@ -87,6 +91,11 @@
   }
 
   .campusName {
+    display: none;
+  }
+
+  .campusName-mvl {
+    display: block;
     font-family: 'Raleway', sans-serif;
     color: #F76C6C;
     font-size: 1.5em;
