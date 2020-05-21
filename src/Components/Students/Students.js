@@ -144,11 +144,15 @@ const Students = () => {
                       </span>
                     </p>
                     <img className="project-image" src={project.projectImage} alt={project.projectName} />
-                    <p>{project.projectDescription}.
-                      {state.texts[state.language].profile.checkIt}
-                      <a href={project.projectLink}>
-                        {state.texts[state.language].profile.here}
-                      </a>
+                    <p>{project.projectDescription}
+                      {
+                        project.projectLink &&
+                        <span> {state.texts[state.language].profile.checkIt}
+                          <a href={project.projectLink}>
+                            {state.texts[state.language].profile.here}
+                          </a>
+                        </span>
+                      }
                     </p>
                     <p>{state.texts[state.language].profile.developedWith}
                       {project.collaborators.map((collaborator) => (

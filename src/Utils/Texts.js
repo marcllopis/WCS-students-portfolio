@@ -1,11 +1,16 @@
 export const Texts = {
   spanish: {
     header: {
-      title: 'Header title',
+      title: 'Ex estudiantes fulltime',
+      subtitle: 'Fullstack Developers',
       description: [
-        'EN CASTELLANO! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        'Ball tip bresaola shoulder ham hock, cow burgdoggen shank ground round flank prosciutto. Swine turkey burgdoggen filet mignon biltong venison prosciutto kielbasa beef ribs spare ribs kevin. Drumstick kielbasa hamburger tongue ham hock t-bone. Landjaeger chicken hamburger chislic, swine prosciutto tail corned beef. Chuck frankfurter pork tail bresaola cupim.',
-        'Jowl leberkas fatback biltong tongue turducken pig ground round. Prosciutto meatloaf ham hock pork cow. Short loin porchetta fatback cow. Frankfurter hamburger landjaeger andouille, pastrami tri-tip ball tip beef ribs short loin kevin rump brisket pork belly pork loin. T-bone pancetta flank, tenderloin beef ribs ham sirloin chuck pork loin beef turkey.',
+        'Hola! Encantado de verte por aquí :)',
+        'Somos un grupo de estudiantes que acabamos de terminar un bootcamp intensivo de 5 meses.',
+        'Hemos vivido un montón de cosas juntas - incluyendo 712 horas de clases, 2 hackathons, 2 proyectos en grupo y un proyecto final junto a un cliente real con el periódico La Vanguardia y el grupo de música La Pegatina -.',
+        'Entonces pensamos: ¿Qué mejor forma para buscar trabajo que hacerlo todas juntas?',
+        'Hemos creado esta página con este dominio para poder mostrar de forma más directa nuestros portfolios. Simplemente haz scroll hacia abajo y nos encontrarás... y nos conocerás! Ahí tienes acceso a nuestro Github, Linkedin, Redes Sociales, hemos escrito una pequeña bio... y hasta grabado un vídeo!',
+        'Si estás buscando contratar a developers, hecha un vistazo y verás como hemos creado una solicón que te ayudará a encontrar quien puede encajar mejor en esa posición incluso antes de entrevistarnos :)',
+        'Muchas gracias por visitarnos!',
       ],
       developerTitle: 'Los programadores',
       mentorTitle: 'Los mentores',
@@ -27,11 +32,16 @@ export const Texts = {
   },
   english: {
     header: {
-      title: 'Header title',
+      title: 'Former Fulltime Students',
+      subtitle: 'Current Fullstack Developers',
       description: [
-        'ENGLISH VERSION! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        'Ball tip bresaola shoulder ham hock, cow burgdoggen shank ground round flank prosciutto. Swine turkey burgdoggen filet mignon biltong venison prosciutto kielbasa beef ribs spare ribs kevin. Drumstick kielbasa hamburger tongue ham hock t-bone. Landjaeger chicken hamburger chislic, swine prosciutto tail corned beef. Chuck frankfurter pork tail bresaola cupim.',
-        'Jowl leberkas fatback biltong tongue turducken pig ground round. Prosciutto meatloaf ham hock pork cow. Short loin porchetta fatback cow. Frankfurter hamburger landjaeger andouille, pastrami tri-tip ball tip beef ribs short loin kevin rump brisket pork belly pork loin. T-bone pancetta flank, tenderloin beef ribs ham sirloin chuck pork loin beef turkey.',
+        'Welcome! So lovely to see you :)',
+        'We\'re a group of classmates who just finished their Bootcamp, after 5 months of practicing.',
+        'We lived so many things together- including 712 hs of Classes, 2 Hackathons, 1 personal Project each, 1 Group Project, and a final Clent Real Project for La Vanguardia or La Pegatina music band-.',
+        'Then we thought: What a better way to look for work that doing it all together?',
+        'So, we created this webpage -and selected this domain- to show our portfolios in a more pragmatic way. Just scroll down, and you\'ll find us... and who we are! You\'ll have access to our Github, our Linkedin, Social media, we even wrote a short bio and... recorded a video about ourselves!',
+        'If you\'re looking to hire Developers, take a look, and you\'ll see how we produced a solution that we\'ll help you know who fits for the position even before interviewing us :)',
+        'Thanks for visiting!',
       ],
       developerTitle: 'The developers',
       mentorTitle: 'The mentors',
