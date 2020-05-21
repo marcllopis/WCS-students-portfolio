@@ -49,7 +49,6 @@ const SubTitleDescription = styled.h1`
 
 const ImageContainer = styled.div`
   width: 40%;
-  height: 500px;
   padding: ${(props) => props.theme.paddings.default};
   padding-top: 5%;
   @media(max-width: 600px) {
