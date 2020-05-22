@@ -1,10 +1,10 @@
 export const Texts = {
   spanish: {
     header: {
-      title: 'Ex estudiantes fulltime',
-      subtitle: 'Fullstack Developers',
+      title: 'Fullstack Developers',
+      subtitle: 'Buscando trabajo de programadoras',
+      welcome: 'Hola! Encantado de verte por aquí :)',
       description: [
-        'Hola! Encantado de verte por aquí :)',
         'Somos un grupo de estudiantes que acabamos de terminar un bootcamp intensivo de 5 meses.',
         'Hemos vivido un montón de cosas juntas - incluyendo 712 horas de clases, 2 hackathons, 2 proyectos en grupo y un proyecto final junto a un cliente real con el periódico La Vanguardia y el grupo de música La Pegatina -.',
         'Entonces pensamos: ¿Qué mejor forma para buscar trabajo que hacerlo todas juntas?',
@@ -12,10 +12,10 @@ export const Texts = {
         'Si estás buscando contratar a developers, hecha un vistazo y verás como hemos creado una solicón que te ayudará a encontrar quien puede encajar mejor en esa posición incluso antes de entrevistarnos :)',
         'Muchas gracias por visitarnos!',
       ],
-      developerTitle: 'Los programadores',
+      developerTitle: 'Conóce al equipo - Contracta talento',
       mentorTitle: 'Los mentores',
       from: 'de ',
-      seeMore: 'Ver más',
+      seeMore: 'Mira mi perfil',
     },
     profile: {
       from: 'De ',
@@ -32,10 +32,10 @@ export const Texts = {
   },
   english: {
     header: {
-      title: 'Former Fulltime Students',
-      subtitle: 'Current Fullstack Developers',
+      title: 'Current Fullstack Developers',
+      subtitle: 'Looking for tech jobs',
+      welcome: 'Welcome! So lovely to see you :)',
       description: [
-        'Welcome! So lovely to see you :)',
         'We\'re a group of classmates who just finished their Bootcamp, after 5 months of practicing.',
         'We lived so many things together- including 712 hs of Classes, 2 Hackathons, 1 personal Project each, 1 Group Project, and a final Clent Real Project for La Vanguardia or La Pegatina music band-.',
         'Then we thought: What a better way to look for work that doing it all together?',
@@ -43,10 +43,10 @@ export const Texts = {
         'If you\'re looking to hire Developers, take a look, and you\'ll see how we produced a solution that we\'ll help you know who fits for the position even before interviewing us :)',
         'Thanks for visiting!',
       ],
-      developerTitle: 'The developers',
+      developerTitle: 'Meet our team - Hire real talents',
       mentorTitle: 'The mentors',
       from: 'from ',
-      seeMore: 'See more',
+      seeMore: 'Check my profile',
     },
     profile: {
       from: 'From ',
