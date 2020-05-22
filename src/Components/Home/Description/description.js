@@ -62,6 +62,12 @@ const Text = styled.p`
   font-size: 1.1em;
 `;
 
+const TextWelcome = styled.p`
+  text-align: justify;
+  font-size: 1.1em;
+  font-weight: bold;
+`;
+
 const RightImage = styled.img`
   width: 100%;
   box-shadow: 0 0 15px 15px rgb(140,140,140,0.5);
@@ -83,6 +89,7 @@ const Description = () => {
         <SubTitleDescription>
           {state.texts[state.language].header.subtitle}
         </SubTitleDescription>
+        <TextWelcome>{state.texts[state.language].header.welcome}</TextWelcome>
         {state.texts[state.language].header.description.map((paragraph) =>
           <Text key={shortId.generate()}>{paragraph}</Text>)}
       </DescContainer>

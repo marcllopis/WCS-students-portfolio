@@ -19,11 +19,13 @@ const MentorsList = () => {
               <Fade key={shortId.generate()} bot>
                 <div className="card-mentor">
                   <div className="img-mentor">
-                    <img
-                      className="img-card-mentor"
-                      src={mentor[state.language].profilePicture}
-                      alt="mentor profile"
-                    />
+                    <a target="_blank" rel="noopener noreferrer" href={mentor[state.language].linkedin}>
+                      <img
+                        className="img-card-mentor"
+                        src={mentor[state.language].profilePicture}
+                        alt="mentor profile"
+                      />
+                    </a>
                   </div>
                   <div className="mentor-quote">
                     <div>{mentor[state.language].shortDescription.map(

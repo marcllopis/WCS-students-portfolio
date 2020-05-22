@@ -36,7 +36,7 @@ export const MentorsList = [
       name: 'Calixto Carbone',
       email: 'marcllopis89@gmail.com',
       role: 'Campus Manager',
-      linkedin: 'https://www.linkedin.com/in/marcllopisruiz/',
+      linkedin: 'https://www.linkedin.com/in/peoplecallmecali/',
       profilePicture: ProfilePictureCali,
       shortDescription: [
         '"Hi there!',
@@ -50,7 +50,7 @@ export const MentorsList = [
       name: 'Calixto Carbone',
       email: 'marcllopis89@gmail.com',
       role: 'Campus Manager',
-      linkedin: 'https://www.linkedin.com/in/marcllopisruiz/',
+      linkedin: 'https://www.linkedin.com/in/peoplecallmecali/',
       profilePicture: ProfilePictureCali,
       shortDescription: [
         'Bacon ipsum dolor amet short ribs bacon frankfurter, ball tip shankle tri-tip chicken jerky turkey pork belly. Leberkas filet mignon sirloin tenderloin pork loin boudin sausage shouldel tip jerky picanha. Frankfurter turducken tongue filet mignon, alcatra pig short loin bacon.',
