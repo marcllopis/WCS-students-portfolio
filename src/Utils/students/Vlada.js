@@ -1,6 +1,7 @@
 import Vanguardia from '../img/projects/vanguardiaBG.jpg';
 import Animate from '../img/projects/animateBG.jpg';
 import ProfilePicture from '../img/profiles/vlada.jpeg';
+import HolaDulce from '../img/projects/holadulce.jpg';
 
 
 export const Vlada =
@@ -14,7 +15,7 @@ export const Vlada =
     linkedin: 'https://www.linkedin.com/in/vlada-masko/',
     profilePicture: ProfilePicture,
     languages: ['spanish', 'english', 'ukranian', 'russian'],
-    shortDescription: 'Proactive mindset to be in continuous learning',
+    shortDescription: 'A former criminologist who decided to chase Bugs instead of Felons',
     longDescription: [
       'Raised in a small town in Almería since I was 7 years old, lover of the sea and the mountains, I have come to stop here in Barcelona.',
       'Always looking for new opportunities for growth, I find myself more enthusiastic than ever to be able to contribute my grain of sand. It has passed an intense year focusing on web development because of my motivation about connecting creativity and logic to create great solutions.',
@@ -36,11 +37,20 @@ export const Vlada =
         projectName: 'ANÍMATE',
         projectImage: Animate,
         projectGithub: 'https://github.com/masko-vl/animategithub of project1',
-        projectLink: 'https://animate.cat/',
+        projectLink: 'https://nervous-euclid-1a7fcd.netlify.app/',
         projectDescription: 'Second project where we integrated generalitat api about the events of Catalunya to create a web app to filter this events by the date, the place and the category and we show the results in calendar and map format',
         collaborators: ['Julie Brosse', 'Alexandrina Serediuc'],
         technologies: ['react'],
       },
+      {
+        projectName: 'Hackathon-Hola Dulce',
+        projectGithub: 'https://github.com/Hackaton-holadulce/Front',
+        projectLink: '',
+        projectImage: HolaDulce,
+        projectDescription: 'Two days remote hackathon, building an administartive page to manage the stock.',
+        collaborators: ['Alexandrina Serediuc', 'Julie Brosse', 'Ruth Abelló', 'Lena Kujath', 'Mireia Gomariz', 'Ailina Ozola'],
+        technologies: ['react', 'mysql', 'node'],
+      }
     ],
     facebook: '',
     instagram: 'https://www.instagram.com/vlada_13_12/',
@@ -57,7 +67,7 @@ export const Vlada =
     linkedin: 'https://www.linkedin.com/in/vlada-masko/',
     profilePicture: ProfilePicture,
     languages: ['spanish', 'english', 'ukranian', 'russian'],
-    shortDescription: 'Mentalidad proactiva a estar en continuo aprendizaje',
+    shortDescription: 'Ex criminóloga que decidió perseguir bugs en vez de delincuentes',
     longDescription: [
       'Criada en un pueblito de Almería desde los 7 años, amante del mar y la montaña, he llegado a parar aquí en Barcelona.',
       'Siempre buscando nuevas oportunidades de crecimiento, me encuentro con más ganas que nunca de poder aportar mi granito de arena. Un año intenso llevo enfocandome en el desarrollo web, siempre me ha motivado el porqué de las cosas y buscar las conexiones entre lo creativo y lo lógico.',
@@ -79,11 +89,20 @@ export const Vlada =
         projectName: 'ANÍMATE',
         projectImage: Animate,
         projectGithub: 'https://github.com/masko-vl/animategithub of project1',
-        projectLink: 'https://animate.cat/',
+        projectLink: 'https://nervous-euclid-1a7fcd.netlify.app/',
         projectDescription: 'Proyecto en el cual integramos una api de la Generalitat sobre eventos de la CCAA para crear una aplicación donde se pueda filtrar estos eventos segun la fecha, la localidad y la categoría del evento y mostrarlos en versión calendario y mapa',
         collaborators: ['Julie Brosse', 'Alexandrina Serediuc'],
         technologies: ['react'],
       },
+      {
+        projectName: 'Hackathon-Hola Dulce',
+        projectGithub: 'https://github.com/Hackaton-holadulce/Front',
+        projectLink: '',
+        projectImage: HolaDulce,
+        projectDescription: 'Two days remote hackathon, building an administartive page to manage the stock.',
+        collaborators: ['Alexandrina Serediuc', 'Julie Brosse', 'Ruth Abelló', 'Lena Kujath', 'Mireia Gomariz', 'Ailina Ozola'],
+        technologies: ['react', 'mysql', 'node'],
+      }
     ],
     facebook: '',
     instagram: 'https://www.instagram.com/vlada_13_12/',
